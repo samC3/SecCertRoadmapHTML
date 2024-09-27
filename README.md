@@ -1,3 +1,9 @@
+# Interactive Javascript Proof of Concept
+
+This fork is a proof of concept for converting Paul Jerimy's roadmap into an interactive version. The first version will use vanilla TypeScript without libraries, although this may change.
+
+To enable interactivity the table will be rendered using Javascript, which means the extact positioning of each cert may be different to the original. Although I will endenvour to keep it as close as possible.
+
 # SecCertRoadmapHTML
 Security Certification Roadmap HTML5/CSS3 version
 
