@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.categories-grid {
+  gap: 0.1rem;
+  grid-template-rows: 1fr;
+  max-height: 85vb;
+  width: 100%;
+}
+
+.category {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
