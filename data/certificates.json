@@ -1,0 +1,2936 @@
+[
+  {
+    "adjacentCategory": [],
+    "content": "OSEE",
+    "mainCategory": "ops",
+    "skillLevel": 1
+  },
+  {
+    "adjacentCategory": [
+      "iam"
+    ],
+    "content": "CCIE Sec",
+    "mainCategory": "network",
+    "skillLevel": 2
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CRTSA",
+    "mainCategory": "engineer",
+    "skillLevel": 2
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "ITIL Master",
+    "mainCategory": "mgmt",
+    "skillLevel": 2
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSCE3",
+    "mainCategory": "ops",
+    "skillLevel": 2
+  },
+  {
+    "adjacentCategory": [
+      "iam"
+    ],
+    "content": "CCIE Ent",
+    "mainCategory": "network",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "VCDX DCV",
+    "mainCategory": "engineer",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "RHCA",
+    "mainCategory": "engineer",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SABSA SCM",
+    "mainCategory": "engineer",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSE",
+    "mainCategory": "mgmt",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GREM",
+    "mainCategory": "ops",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSWE",
+    "mainCategory": "ops",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSEP",
+    "mainCategory": "ops",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSED",
+    "mainCategory": "ops",
+    "skillLevel": 3
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "PgMP",
+    "mainCategory": "mgmt",
+    "skillLevel": 4
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISSP Concentrations",
+    "mainCategory": "mgmt",
+    "skillLevel": 4
+  },
+  {
+    "adjacentCategory": [],
+    "content": "NCSC CCPLP",
+    "mainCategory": "mgmt",
+    "skillLevel": 4
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CFCE",
+    "mainCategory": "ops",
+    "skillLevel": 4
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GXPN",
+    "mainCategory": "ops",
+    "skillLevel": 4
+  },
+  {
+    "adjacentCategory": [],
+    "content": "VCIX DCV",
+    "mainCategory": "engineer",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [
+      "mgmt"
+    ],
+    "content": "ASIS CPP",
+    "mainCategory": "asset",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Zach EAPro",
+    "mainCategory": "mgmt",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PMP",
+    "mainCategory": "mgmt",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISM",
+    "mainCategory": "mgmt",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-ISME",
+    "mainCategory": "mgmt",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "NCSC CCPSP",
+    "mainCategory": "mgmt",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSFA",
+    "mainCategory": "ops",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GIME",
+    "mainCategory": "ops",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GAWN",
+    "mainCategory": "ops",
+    "skillLevel": 5
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISSP",
+    "mainCategory": "mgmt",
+    "skillLevel": 6
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCD",
+    "mainCategory": "ops",
+    "skillLevel": 6
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CAWFE",
+    "mainCategory": "ops",
+    "skillLevel": 6
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCFA",
+    "mainCategory": "ops",
+    "skillLevel": 6
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCTI",
+    "mainCategory": "ops",
+    "skillLevel": 6
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CSAM",
+    "mainCategory": "ops",
+    "skillLevel": 6
+  },
+  {
+    "adjacentCategory": [],
+    "content": "JNCIE Sec",
+    "mainCategory": "network",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCDE",
+    "mainCategory": "network",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AWS SAP",
+    "mainCategory": "engineer",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "RHCE",
+    "mainCategory": "engineer",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GDAT",
+    "mainCategory": "engineer",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SC-100",
+    "mainCategory": "engineer",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "TOGAF",
+    "mainCategory": "mgmt",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCISO",
+    "mainCategory": "mgmt",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EEXIN ISM",
+    "mainCategory": "mgmt",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSTRT",
+    "mainCategory": "mgmt",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "NCSC CCPP",
+    "mainCategory": "mgmt",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSNA",
+    "mainCategory": "test",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CFSR",
+    "mainCategory": "ops",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GNFA",
+    "mainCategory": "ops",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eWPTX",
+    "mainCategory": "ops",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CCSAS",
+    "mainCategory": "ops",
+    "skillLevel": 7
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCX",
+    "mainCategory": "network",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AZ-305",
+    "mainCategory": "engineer",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "VCIX NV",
+    "mainCategory": "engineer",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "LPIC-3",
+    "mainCategory": "engineer",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SABSA SCP",
+    "mainCategory": "engineer",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PSM III",
+    "mainCategory": "mgmt",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSP",
+    "mainCategory": "mgmt",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GISP",
+    "mainCategory": "mgmt",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MTIA",
+    "mainCategory": "ops",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCFR",
+    "mainCategory": "ops",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "BTL2",
+    "mainCategory": "ops",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MRT",
+    "mainCategory": "ops",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CCTINF",
+    "mainCategory": "ops",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "HTB CWEE",
+    "mainCategory": "ops",
+    "skillLevel": 8
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Google PCSA",
+    "mainCategory": "engineer",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SCE",
+    "mainCategory": "engineer",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISA CE",
+    "mainCategory": "engineer",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GDSA",
+    "mainCategory": "engineer",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ITIL SL",
+    "mainCategory": "mgmt",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Zach EAP",
+    "mainCategory": "mgmt",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSLC",
+    "mainCategory": "mgmt",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-CISO",
+    "mainCategory": "mgmt",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCFE",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GEIR",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PACES",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-CEHL",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CRT",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CRTO II",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MCD",
+    "mainCategory": "ops",
+    "skillLevel": 9
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCNP Sec",
+    "mainCategory": "network",
+    "skillLevel": 10
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIMP",
+    "mainCategory": "iam",
+    "skillLevel": 10
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CASP+",
+    "mainCategory": "mgmt",
+    "skillLevel": 10
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GASF",
+    "mainCategory": "ops",
+    "skillLevel": 10
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eCTHP",
+    "mainCategory": "ops",
+    "skillLevel": 10
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-EHE",
+    "mainCategory": "ops",
+    "skillLevel": 10
+  },
+  {
+    "adjacentCategory": [],
+    "content": "JNCIP Sec",
+    "mainCategory": "network",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCNSE",
+    "mainCategory": "network",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCSS ZTA",
+    "mainCategory": "network",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCSS SASE",
+    "mainCategory": "iam",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCSS PCS",
+    "mainCategory": "engineer",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCTD",
+    "mainCategory": "engineer",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CACE",
+    "mainCategory": "engineer",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "ITIL MP",
+    "mainCategory": "mgmt",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Scrum SPS",
+    "mainCategory": "mgmt",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GLEG",
+    "mainCategory": "mgmt",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISSM",
+    "mainCategory": "mgmt",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CGRC",
+    "mainCategory": "mgmt",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [
+      "test"
+    ],
+    "content": "CRISC",
+    "mainCategory": "mgmt",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCCC",
+    "mainCategory": "test",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCI QSA",
+    "mainCategory": "test",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GWEB",
+    "mainCategory": "software",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Cisco COP",
+    "mainCategory": "ops",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCFE",
+    "mainCategory": "ops",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCED",
+    "mainCategory": "ops",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MCPE",
+    "mainCategory": "ops",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CCTIM",
+    "mainCategory": "ops",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSCP",
+    "mainCategory": "ops",
+    "skillLevel": 11
+  },
+  {
+    "adjacentCategory": [],
+    "content": "F5 CSE Sec",
+    "mainCategory": "network",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCNP Ent",
+    "mainCategory": "network",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [
+      "iam"
+    ],
+    "content": "MS-100",
+    "mainCategory": "engineer",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GPCS",
+    "mainCategory": "engineer",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCSA",
+    "mainCategory": "engineer",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCWN",
+    "mainCategory": "engineer",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GRID",
+    "mainCategory": "engineer",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIS LI",
+    "mainCategory": "engineer",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIPT",
+    "mainCategory": "asset",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [
+      "mgmt"
+    ],
+    "content": "CDPSE",
+    "mainCategory": "asset",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSM",
+    "mainCategory": "mgmt",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CASM",
+    "mainCategory": "mgmt",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CM)ISSO",
+    "mainCategory": "mgmt",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-ISP",
+    "mainCategory": "mgmt",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISA",
+    "mainCategory": "test",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GMON",
+    "mainCategory": "test",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIS LA",
+    "mainCategory": "test",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-CSPL",
+    "mainCategory": "software",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCDA",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CMFE",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GX-FA",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCIH",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GX-PT",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GPEN",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSWP",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CRTO",
+    "mainCategory": "ops",
+    "skillLevel": 12
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSM",
+    "mainCategory": "network",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCSAE",
+    "mainCategory": "network",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCCSE",
+    "mainCategory": "network",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIAM",
+    "mainCategory": "iam",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCSS SO",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PDSO CDE",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "VCP DCV",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CKS",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "LFCS",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCSS OT",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "CSSA",
+    "mainCategory": "engineer",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Scrum PSD",
+    "mainCategory": "mgmt",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCPM",
+    "mainCategory": "mgmt",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "BCS PCIRM",
+    "mainCategory": "mgmt",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PEXIN ISM",
+    "mainCategory": "mgmt",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MGRC",
+    "mainCategory": "mgmt",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [
+      "mgmt",
+      "test",
+      "ops"
+    ],
+    "content": "CSSLP",
+    "mainCategory": "software",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MTH",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CDRP",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eCDFP",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GPYC",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MDFIR",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "LPT",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PNPT",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCPN",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GRTP",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CAPenX",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GMOB",
+    "mainCategory": "ops",
+    "skillLevel": 13
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCSS NS",
+    "mainCategory": "network",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIDPRO",
+    "mainCategory": "iam",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSP",
+    "mainCategory": "engineer",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCP PCS",
+    "mainCategory": "engineer",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCP SO",
+    "mainCategory": "engineer",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "RHCSA",
+    "mainCategory": "engineer",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISA CDS",
+    "mainCategory": "engineer",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SFCTA",
+    "mainCategory": "engineer",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EPDPP",
+    "mainCategory": "asset",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "M_o_R P",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CPD",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PMI ACP",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EISM",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CGEIT",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN 27001E",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27005LM",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DCCRP",
+    "mainCategory": "mgmt",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCIA",
+    "mainCategory": "test",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CTPRA",
+    "mainCategory": "test",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27001LA",
+    "mainCategory": "test",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DevNet Pro",
+    "mainCategory": "software",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SC-400",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCE",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CM)DFI",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CRIA",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CRTIA",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GWAPT",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSMR",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCPT",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCPenX-AWS",
+    "mainCategory": "ops",
+    "skillLevel": 14
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSE",
+    "mainCategory": "network",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [
+      "iam"
+    ],
+    "content": "AWS CSS",
+    "mainCategory": "engineer",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SFCCCC",
+    "mainCategory": "engineer",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN PCSA",
+    "mainCategory": "engineer",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CKA",
+    "mainCategory": "engineer",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV COTCP",
+    "mainCategory": "engineer",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SABSA SCF",
+    "mainCategory": "engineer",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIPA",
+    "mainCategory": "asset",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DCPP",
+    "mainCategory": "asset",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Scrum PAL",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CAPM",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PSM II",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "APMG 20000P",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)ISRM",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "APMG 27001P",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27001LI",
+    "mainCategory": "mgmt",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "IS20",
+    "mainCategory": "test",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)ISSA",
+    "mainCategory": "test",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "APMG 27001A",
+    "mainCategory": "test",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CASE",
+    "mainCategory": "software",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)DRE",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSOC",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GBFA",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "BTL1",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MBT",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MPT",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CPENT",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CCTAPP",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "HTB CPTS",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MRE",
+    "mainCategory": "ops",
+    "skillLevel": 15
+  },
+  {
+    "adjacentCategory": [],
+    "content": "JNCIS Sec",
+    "mainCategory": "network",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Programming Language",
+    "mainCategory": "mgmt",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GMLE",
+    "mainCategory": "software",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CCHIA",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EnCE",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ACE",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eCIR",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)IHE",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSTL",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eCPPT",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eWPT",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CM)IPS",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "HTB CBBH",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PJMR",
+    "mainCategory": "ops",
+    "skillLevel": 16
+  },
+  {
+    "adjacentCategory": [],
+    "content": "F5 CTS APM",
+    "mainCategory": "network",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCP NS",
+    "mainCategory": "network",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCNA",
+    "mainCategory": "network",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [
+      "iam"
+    ],
+    "content": "AZ-500",
+    "mainCategory": "engineer",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSA CGC",
+    "mainCategory": "engineer",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "VCP NV",
+    "mainCategory": "engineer",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CKAD",
+    "mainCategory": "engineer",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "LPIC-2",
+    "mainCategory": "engineer",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCIP",
+    "mainCategory": "engineer",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIMP",
+    "mainCategory": "asset",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [
+      "mgmt"
+    ],
+    "content": "CDP",
+    "mainCategory": "asset",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCP",
+    "mainCategory": "mgmt",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)ISSO",
+    "mainCategory": "mgmt",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIS RM",
+    "mainCategory": "mgmt",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN 27001P",
+    "mainCategory": "mgmt",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27032CM",
+    "mainCategory": "mgmt",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)HISSP",
+    "mainCategory": "mgmt",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "APMG 20000A",
+    "mainCategory": "test",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)ISMS-LA",
+    "mainCategory": "test",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIS IA",
+    "mainCategory": "test",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CASST",
+    "mainCategory": "software",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSIP",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Cisco COA",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)CSA",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CHFI",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-TA",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ECIH",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)PSH",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CMWAPT",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)PTC",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CRTOP",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSR",
+    "mainCategory": "ops",
+    "skillLevel": 17
+  },
+  {
+    "adjacentCategory": [],
+    "content": "F5 CTS DNS",
+    "mainCategory": "network",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCDRA",
+    "mainCategory": "network",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SF CIAMD",
+    "mainCategory": "iam",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCLD",
+    "mainCategory": "engineer",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AWS SAA",
+    "mainCategory": "engineer",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN PCSerM",
+    "mainCategory": "engineer",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISA CRAS",
+    "mainCategory": "engineer",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SPLK-",
+    "mainCategory": "engineer",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "BCS PCIAA",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSA",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PPM",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)ISSM",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV ITSM",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCRMP",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27005RM",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSBA",
+    "mainCategory": "mgmt",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DCBCLA",
+    "mainCategory": "test",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV MSA",
+    "mainCategory": "test",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DevNet A",
+    "mainCategory": "software",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CySA+",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSX-P",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)NFE",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GOSI",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)TIA",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSDA",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eMAPT",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "BSCP",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OPST",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OSWA",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREA",
+    "mainCategory": "ops",
+    "skillLevel": 18
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CWSP",
+    "mainCategory": "network",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CCNIA",
+    "mainCategory": "network",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIGE",
+    "mainCategory": "iam",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AZ-104",
+    "mainCategory": "engineer",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CLCSM",
+    "mainCategory": "engineer",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSE",
+    "mainCategory": "engineer",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MCSE",
+    "mainCategory": "engineer",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SFSA",
+    "mainCategory": "engineer",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [
+      "mgmt"
+    ],
+    "content": "ASIS APP",
+    "mainCategory": "asset",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CNDA",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DACRP",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISRM",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DCRMP",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SSAP",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GRCP",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SACP",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISP",
+    "mainCategory": "mgmt",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV Auditor",
+    "mainCategory": "test",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CTPRP",
+    "mainCategory": "test",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "IIA CIA",
+    "mainCategory": "test",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSC",
+    "mainCategory": "software",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SC-200",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MRCI",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EDRP",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "HTB CDSA",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CFR",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CTIA",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSTM",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eJPT",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-EHP",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CHAT",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CPSA",
+    "mainCategory": "ops",
+    "skillLevel": 19
+  },
+  {
+    "adjacentCategory": [],
+    "content": "F5 CA",
+    "mainCategory": "network",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "eNDP",
+    "mainCategory": "network",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIST",
+    "mainCategory": "iam",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Google PCSE",
+    "mainCategory": "engineer",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN PCSM",
+    "mainCategory": "engineer",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MDSO",
+    "mainCategory": "engineer",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SCA",
+    "mainCategory": "engineer",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISA CAP",
+    "mainCategory": "engineer",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV COSM",
+    "mainCategory": "engineer",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Zach EAA",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CAD",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CAC",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISMI CSMP",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSCS",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "APMG 27001F",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27001F",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)SLO",
+    "mainCategory": "mgmt",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DCBCA",
+    "mainCategory": "test",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GRCA",
+    "mainCategory": "test",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CISST",
+    "mainCategory": "test",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)SWAE",
+    "mainCategory": "software",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OPSA",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSAE",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ASIS PCI",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MAD SOCA",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MAD CTI",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CEH",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CAPen",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)PTE",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CNPen",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DV RTOS",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DV OTD",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MVRE",
+    "mainCategory": "ops",
+    "skillLevel": 20
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MNSE",
+    "mainCategory": "network",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCNSA",
+    "mainCategory": "network",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OWSE",
+    "mainCategory": "network",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SC-300",
+    "mainCategory": "iam",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSA CCSK",
+    "mainCategory": "engineer",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)CSO",
+    "mainCategory": "engineer",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DCA",
+    "mainCategory": "engineer",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "LPIC-1",
+    "mainCategory": "engineer",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GICSP",
+    "mainCategory": "engineer",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GSEC",
+    "mainCategory": "mgmt",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MOIS",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CFA",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSA",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GFACT",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CMPen And",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CMPen iOS",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DV MoS",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Pentest+",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CSAS",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ECES",
+    "mainCategory": "ops",
+    "skillLevel": 21
+  },
+  {
+    "adjacentCategory": [],
+    "content": "JNCIA Sec",
+    "mainCategory": "network",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCA",
+    "mainCategory": "network",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "WCNA",
+    "mainCategory": "network",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Server+",
+    "mainCategory": "engineer",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PDSO CDP",
+    "mainCategory": "engineer",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN PCD",
+    "mainCategory": "engineer",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "KCNA",
+    "mainCategory": "engineer",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Linux+",
+    "mainCategory": "engineer",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AZ-220",
+    "mainCategory": "engineer",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CRFS",
+    "mainCategory": "asset",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SSCP",
+    "mainCategory": "mgmt",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CAP",
+    "mainCategory": "software",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCOA",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CPIA",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MESE",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CREST CPTIA",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MCPT",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)PEH",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "GCPEH",
+    "mainCategory": "ops",
+    "skillLevel": 22
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCSA",
+    "mainCategory": "network",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ITS-NS",
+    "mainCategory": "network",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CCT",
+    "mainCategory": "network",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Cloud+",
+    "mainCategory": "engineer",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Google ACE",
+    "mainCategory": "engineer",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG CCSP-AWS",
+    "mainCategory": "engineer",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "LFCA",
+    "mainCategory": "engineer",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISA CFS",
+    "mainCategory": "engineer",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EITCA/IS",
+    "mainCategory": "engineer",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIPP",
+    "mainCategory": "asset",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Security+",
+    "mainCategory": "mgmt",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ECSS",
+    "mainCategory": "ops",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)DFE",
+    "mainCategory": "ops",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-SA",
+    "mainCategory": "ops",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DV AOPH",
+    "mainCategory": "ops",
+    "skillLevel": 23
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SOG NSP",
+    "mainCategory": "network",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Net+",
+    "mainCategory": "network",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CAMS",
+    "mainCategory": "iam",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AZ-900",
+    "mainCategory": "engineer",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MCSF",
+    "mainCategory": "engineer",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MSAF",
+    "mainCategory": "engineer",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Apple ACSP",
+    "mainCategory": "engineer",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CACS",
+    "mainCategory": "engineer",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV COSTE",
+    "mainCategory": "engineer",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EPDPF",
+    "mainCategory": "asset",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "TOGAF Fdn",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSP",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "IIBA CCA",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CITGP",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)ISCAP",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSAP",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27032F",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MCL",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ITS-C",
+    "mainCategory": "mgmt",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN CIT",
+    "mainCategory": "test",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV CySec",
+    "mainCategory": "test",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSST",
+    "mainCategory": "software",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "OPSE",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSX-F",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "DV MILF",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIRM Fdn",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EEHF",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-EHF",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CHA",
+    "mainCategory": "ops",
+    "skillLevel": 24
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FCF",
+    "mainCategory": "network",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PCCET",
+    "mainCategory": "network",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "AWS CP",
+    "mainCategory": "engineer",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN PCA",
+    "mainCategory": "engineer",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "A+",
+    "mainCategory": "engineer",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIOTSP",
+    "mainCategory": "engineer",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV COSP",
+    "mainCategory": "engineer",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EPDPE",
+    "mainCategory": "asset",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "M_o_R Fdn",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Fair Fdn",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PSM I",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "APMG 20000F",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "ISMI CSM",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "BCS FISMP",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CC",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-ISF",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [
+      "test"
+    ],
+    "content": "GISF",
+    "mainCategory": "mgmt",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "TUV CyAware",
+    "mainCategory": "test",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MASE",
+    "mainCategory": "software",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)SP",
+    "mainCategory": "ops",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CND",
+    "mainCategory": "ops",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C)VA",
+    "mainCategory": "ops",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "KLCP",
+    "mainCategory": "ops",
+    "skillLevel": 25
+  },
+  {
+    "adjacentCategory": [],
+    "content": "SC-900",
+    "mainCategory": "iam",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Cloud Essnt",
+    "mainCategory": "engineer",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [
+      "asset"
+    ],
+    "content": "ITIL Fdn",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "Project+",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIISec ICSF",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "FEXIN",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "EXIN 27001F",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "PECB 27005F",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "C CS F",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CIS F",
+    "mainCategory": "mgmt",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "S-SPF",
+    "mainCategory": "software",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "CSCU",
+    "mainCategory": "ops",
+    "skillLevel": 26
+  },
+  {
+    "adjacentCategory": [],
+    "content": "MICS",
+    "mainCategory": "ops",
+    "skillLevel": 26
+  }
+]

@@ -1,7 +1,35 @@
+:root {
+  --green: #70ad47;
+  --greendk: #548235;
+  --teal: #008080;
+  --tealdk: #003f3e;
+  --orange: #fa8e36;
+  --orangedk: #c06216;
+  --orangelt: #fdeada;
+  --yellow: #e4ac03;
+  --yellowdk: #7f6000;
+  --black: #2a2a2a;
+  --blackdk: #000000;
+  --blacklt: #d9d9d9;
+  --purple: #683e9b;
+  --purpledk: #352647;
+  --purplelt: #eddbff;
+  --skyblue: #6bb3f6;
+  --skybluedk: #2665a0;
+  --blue: #2e5688;
+  --bluedk: #1f3147;
+  --bluelt: #dce6f2;
+  --red: #c0514d;
+  --reddk: #8c3736;
+  --redlt: #f2dcdb;
+  --magenta: #830083;
+  --magentadk: #490e49;
+}
+
 .grid {
   display: grid;
   position: absolute;
-  height: 100%;
+  height: 85%;
   width: 100%;
 }
 
@@ -15,4 +43,52 @@
 .category {
   border: 1px solid black;
   border-radius: 0.5rem;
+}
+
+.certificates-grid {
+  gap: 0.1rem;
+}
+
+.cert {
+  color: white;
+  border: 2px solid black;
+  width: 100%;
+  font-size: 7.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--green);
+}
+
+.network {
+  background-color: var(--green);
+}
+
+.iam {
+  background-color: var(--teal);
+}
+
+.engineer {
+  background-color: var(--orange);
+}
+
+.asset {
+  background-color: var(--yellow);
+}
+
+.mgmt {
+  background-color: var(--black);
+}
+
+.test {
+  background-color: var(--purple);
+}
+
+.software {
+  background-color: var(--skyblue);
+}
+
+.ops {
+  background-color: var(--blue);
 }
