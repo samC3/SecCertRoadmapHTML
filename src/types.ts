@@ -9,6 +9,8 @@ export interface CategoryColumn {
   start: number;
   span: number;
   hidden: boolean;
+  renderControl: boolean;
+  displayName: string;
 }
 
 export interface Certificate {

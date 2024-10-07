@@ -30,14 +30,13 @@
   display: grid;
   position: absolute;
   height: 85%;
-  width: 100%;
+  width: calc(100vw - 1rem);
 }
 
 .categories-grid {
   gap: 0.1rem;
   grid-template-rows: 1fr;
-  max-height: 85vb;
-  width: 100%;
+  max-height: 85vh;
 }
 
 .category {
@@ -59,6 +58,74 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--green);
+}
+
+#controls {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.control-label {
+  border: 2px solid lightgray;
+  color: gray;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+input[type="checkbox"]:checked + .control-label {
+  color: black;
+}
+
+input[type="checkbox"]:checked + .control-label.network-label {
+  border: 2px solid var(--green);
+}
+input[type="checkbox"]:checked + .control-label.iam-label {
+  border: 2px solid var(--teal);
+}
+input[type="checkbox"]:checked + .control-label.engineer-label {
+  border: 2px solid var(--orange);
+}
+input[type="checkbox"]:checked + .control-label.asset-label {
+  border: 2px solid var(--yellow);
+}
+input[type="checkbox"]:checked + .control-label.mgmt-label {
+  border: 2px solid var(--black);
+}
+input[type="checkbox"]:checked + .control-label.test-label {
+  border: 2px solid var(--purple);
+}
+input[type="checkbox"]:checked + .control-label.software-label {
+  border: 2px solid var(--skyblue);
+}
+input[type="checkbox"]:checked + .control-label.ops-label {
+  border: 2px solid var(--blue);
+}
+
+input[type="checkbox"]:checked + .control-label.beginner-label,
+input[type="checkbox"]:checked + .control-label.intermediate-label,
+input[type="checkbox"]:checked + .control-label.expert-label {
+  border: 2px solid black;
+}
+
+.skill-levels {
+  display: flex;
+  flex-direction: row;
+  rotate: 180deg;
+  writing-mode: vertical-rl;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .network {
