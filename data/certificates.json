@@ -3,7 +3,8 @@
     "adjacentCategory": [],
     "content": "OSEE",
     "mainCategory": "ops",
-    "skillLevel": 1
+    "skillLevel": 1,
+    "tooltiptext": "Offensive Security Exploitation Expert\\n    $5,000 lab\\n    Plus travel"
   },
   {
     "adjacentCategory": [
@@ -11,13 +12,15 @@
     ],
     "content": "CCIE Sec",
     "mainCategory": "network",
-    "skillLevel": 2
+    "skillLevel": 2,
+    "tooltiptext": "Cisco Certified Implementation Expert - Security\\n    $2,050 Hands-on Lab\\n    $12,000 est Travel cost"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CRTSA",
     "mainCategory": "engineer",
-    "skillLevel": 2
+    "skillLevel": 2,
+    "tooltiptext": "CREST Registered Technical Security Architect\\n    $2,300 two exams\\n    In person in the UK"
   },
   {
     "adjacentCategory": [
@@ -25,13 +28,15 @@
     ],
     "content": "ITIL Master",
     "mainCategory": "mgmt",
-    "skillLevel": 2
+    "skillLevel": 2,
+    "tooltiptext": "ITIL Master\\n    $4,000 Interview"
   },
   {
     "adjacentCategory": [],
     "content": "OSCE3",
     "mainCategory": "ops",
-    "skillLevel": 2
+    "skillLevel": 2,
+    "tooltiptext": "Offensive Security Certified Expert 3\\n    $4,649 3 labs"
   },
   {
     "adjacentCategory": [
@@ -39,55 +44,64 @@
     ],
     "content": "CCIE Ent",
     "mainCategory": "network",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "Cisco Certified Internetwork Expert - Enterprise Infrastructure\\n    ~$2,050 hands-on lab\\n    ~$12,000 in travel costs"
   },
   {
     "adjacentCategory": [],
     "content": "VCDX DCV",
     "mainCategory": "engineer",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "VMware Certified Design Expert in Datacenter Virtualization\\n    $3,995 exams\\n    Application also req."
   },
   {
     "adjacentCategory": [],
     "content": "RHCA",
     "mainCategory": "engineer",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "Red Hat Certified Architect\\n    ~$3,745 exam\\n    plus travel"
   },
   {
     "adjacentCategory": [],
     "content": "SABSA SCM",
     "mainCategory": "engineer",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "SABSA Chartered Security Architect - Master Certificate\\n    $3,750 exam & thesis\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "GSE",
     "mainCategory": "mgmt",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "GIAC Security Expert\\n    ~$7475 for 10 exams"
   },
   {
     "adjacentCategory": [],
     "content": "GREM",
     "mainCategory": "ops",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "GIAC Reverse Engineering Malware\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "OSWE",
     "mainCategory": "ops",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "Offensive Security Web Expert\\n    ~$1649 lab"
   },
   {
     "adjacentCategory": [],
     "content": "OSEP",
     "mainCategory": "ops",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "Offensive Security Experienced Penetration Tester\\n    $1,499 lab"
   },
   {
     "adjacentCategory": [],
     "content": "OSED",
     "mainCategory": "ops",
-    "skillLevel": 3
+    "skillLevel": 3,
+    "tooltiptext": "Offensive Security Exploit Developer\\n    $1,499 lab"
   },
   {
     "adjacentCategory": [
@@ -95,37 +109,43 @@
     ],
     "content": "PgMP",
     "mainCategory": "mgmt",
-    "skillLevel": 4
+    "skillLevel": 4,
+    "tooltiptext": "PMI Program Management Professional\\n    $1,000 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CISSP Concentrations",
     "mainCategory": "mgmt",
-    "skillLevel": 4
+    "skillLevel": 4,
+    "tooltiptext": "(ISC)2 Certified Information Systems Security Professional Concentrations\\n    $599 exam"
   },
   {
     "adjacentCategory": [],
     "content": "NCSC CCPLP",
     "mainCategory": "mgmt",
-    "skillLevel": 4
+    "skillLevel": 4,
+    "tooltiptext": "NCSC Certified Cybersecurity Professional - Lead Practitioner\\n    $1388 interview"
   },
   {
     "adjacentCategory": [],
     "content": "CFCE",
     "mainCategory": "ops",
-    "skillLevel": 4
+    "skillLevel": 4,
+    "tooltiptext": "IACIS Certified Forensic Computer Examiner\\n    $750 4 peer reviewed exams"
   },
   {
     "adjacentCategory": [],
     "content": "GXPN",
     "mainCategory": "ops",
-    "skillLevel": 4
+    "skillLevel": 4,
+    "tooltiptext": "GIAC Exploit Researcher and Advanced Penetration Tester\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "VCIX DCV",
     "mainCategory": "engineer",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "VMware Certified Implementation Expert in Datacenter Virtualization\\n    $900 two exams"
   },
   {
     "adjacentCategory": [
@@ -133,127 +153,148 @@
     ],
     "content": "ASIS CPP",
     "mainCategory": "asset",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "ASIS Certified Protection Professional\\n    $485 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Zach EAPro",
     "mainCategory": "mgmt",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "Zachman Enterprise Architect Professional (Level 3)\\n    $2,999 exam & case study\\n    Level 1 & 2 cert not req'd"
   },
   {
     "adjacentCategory": [],
     "content": "PMP",
     "mainCategory": "mgmt",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "PMI Project Management Professional\\n    $555 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CISM",
     "mainCategory": "mgmt",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "ISACA Certified Information Security Manager\\n    $760 exam"
   },
   {
     "adjacentCategory": [],
     "content": "S-ISME",
     "mainCategory": "mgmt",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "SECO Information Security Management Expert\\n    $850 exam"
   },
   {
     "adjacentCategory": [],
     "content": "NCSC CCPSP",
     "mainCategory": "mgmt",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "NCSC Certified Cybersecurity Professional - Senior Practitioner\\n    $907 interview"
   },
   {
     "adjacentCategory": [],
     "content": "CSFA",
     "mainCategory": "ops",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "CSIAC CyberSecurity Forensic Analyst\\n    $750 exam & lab"
   },
   {
     "adjacentCategory": [],
     "content": "GIME",
     "mainCategory": "ops",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "GIAC iOS and MacOS Examiner\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GAWN",
     "mainCategory": "ops",
-    "skillLevel": 5
+    "skillLevel": 5,
+    "tooltiptext": "GIAC Assessing Wireless Networks\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CISSP",
     "mainCategory": "mgmt",
-    "skillLevel": 6
+    "skillLevel": 6,
+    "tooltiptext": "(ISC)2 Certified Information Systems Security Professional\\n    $749 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCD",
     "mainCategory": "ops",
-    "skillLevel": 6
+    "skillLevel": 6,
+    "tooltiptext": "Certified CyberDefender\\n    $800 course\\n    2 exam attempt included"
   },
   {
     "adjacentCategory": [],
     "content": "CAWFE",
     "mainCategory": "ops",
-    "skillLevel": 6
+    "skillLevel": 6,
+    "tooltiptext": "IACIS Certified Advanced Windows Forensic Examiner\\n    $750 written exam & lab"
   },
   {
     "adjacentCategory": [],
     "content": "GCFA",
     "mainCategory": "ops",
-    "skillLevel": 6
+    "skillLevel": 6,
+    "tooltiptext": "GIAC Certified Forensic Analyst\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GCTI",
     "mainCategory": "ops",
-    "skillLevel": 6
+    "skillLevel": 6,
+    "tooltiptext": "GIAC Cyber Threat Intelligence\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CSAM",
     "mainCategory": "ops",
-    "skillLevel": 6
+    "skillLevel": 6,
+    "tooltiptext": "CREST Certified Simulated Attack Manager\\n    $2,499 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "JNCIE Sec",
     "mainCategory": "network",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "Juniper Networks Certified Internet Expert, Security\\n    $1,400 Hands-on Lab"
   },
   {
     "adjacentCategory": [],
     "content": "CCDE",
     "mainCategory": "network",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "Cisco Certified Design Expert\\n    ~$1,600 written exam\\n    with hands-on lab"
   },
   {
     "adjacentCategory": [],
     "content": "AWS SAP",
     "mainCategory": "engineer",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "Amazon Web Services Certified Solutions Architect - Professional\\n    $300 exam"
   },
   {
     "adjacentCategory": [],
     "content": "RHCE",
     "mainCategory": "engineer",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "Red Hat Certified Engineer\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GDAT",
     "mainCategory": "engineer",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "GIAC Defending Advanced Threats\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "SC-100",
     "mainCategory": "engineer",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "Microsoft Cybersecurity Architect\\n    $165 exam"
   },
   {
     "adjacentCategory": [
@@ -261,313 +302,365 @@
     ],
     "content": "TOGAF",
     "mainCategory": "mgmt",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "OpenGroup TOGAF Certified\\n    $360 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCISO",
     "mainCategory": "mgmt",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "EC Council Certified Information Security Officer\\n    $3,150 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "EEXIN ISM",
     "mainCategory": "mgmt",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "EXIN Information Security Management Expert\\n    EST $799 oral exam"
   },
   {
     "adjacentCategory": [],
     "content": "GSTRT",
     "mainCategory": "mgmt",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "GIAC Strategic Planning, Policy and Leadership\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "NCSC CCPP",
     "mainCategory": "mgmt",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "NCSC Certified Cybersecurity Professional - Practitioner\\n    $225 interview"
   },
   {
     "adjacentCategory": [],
     "content": "GSNA",
     "mainCategory": "test",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "GIAC Systems and Network Auditor\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CFSR",
     "mainCategory": "ops",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "OpenText Certified Forensic Security Responder\\n    $250 written exam & lab"
   },
   {
     "adjacentCategory": [],
     "content": "GNFA",
     "mainCategory": "ops",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "GIAC Network Forensic Analyst\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "eWPTX",
     "mainCategory": "ops",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "eLearnSecurity Web Application Penetration Tester eXtreme\\n    $400 exam\\n    $2000 training"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CCSAS",
     "mainCategory": "ops",
-    "skillLevel": 7
+    "skillLevel": 7,
+    "tooltiptext": "CREST Certified Simulated Attack Specialist\\n    $2,520 2 exams & lab"
   },
   {
     "adjacentCategory": [],
     "content": "FCX",
     "mainCategory": "network",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Fortinet Certified Expert\\n                    $400 written exam\\n                    $1600 in-person lab"
   },
   {
     "adjacentCategory": [],
     "content": "AZ-305",
     "mainCategory": "engineer",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Microsoft Azure Solutions Architect Expert\\n    $330 exam"
   },
   {
     "adjacentCategory": [],
     "content": "VCIX NV",
     "mainCategory": "engineer",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "VMware Certified Implementation Expert in Network Virtualization\\n    $900 two exams"
   },
   {
     "adjacentCategory": [],
     "content": "LPIC-3",
     "mainCategory": "engineer",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Linux Professional Institute Certified: 303 Security\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SABSA SCP",
     "mainCategory": "engineer",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "SABSA Chartered Security Architect - Practitioner Certificate\\n    $3,750 written exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "PSM III",
     "mainCategory": "mgmt",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Scrum.org Professional Scrum Master III\\n    $500 exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "GSP",
     "mainCategory": "mgmt",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "GIAC Security Professional\\n    ~$3735 for 5 exams"
   },
   {
     "adjacentCategory": [],
     "content": "GISP",
     "mainCategory": "mgmt",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "GIAC Information Security Professional\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "MTIA",
     "mainCategory": "ops",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Mosse Institute Certified Threat Intelligence Analyst Certification\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "GCFR",
     "mainCategory": "ops",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "GIAC Cloud Forensics Responder\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "BTL2",
     "mainCategory": "ops",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Security Blue Team Level 2\\n    $2,190 course\\n    1 exam attempt included"
   },
   {
     "adjacentCategory": [],
     "content": "MRT",
     "mainCategory": "ops",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Mosse Institute Certified Red Teamer Certification\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "CREST CCTINF",
     "mainCategory": "ops",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "CREST Certified Infrastructure Tester\\n    $2,520 exam & lab"
   },
   {
     "adjacentCategory": [],
     "content": "HTB CWEE",
     "mainCategory": "ops",
-    "skillLevel": 8
+    "skillLevel": 8,
+    "tooltiptext": "Hack the Box Certified Web Exploitation Expert\\n    $1260 Subscription available"
   },
   {
     "adjacentCategory": [],
     "content": "Google PCSA",
     "mainCategory": "engineer",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "Google Professional Cloud Architect\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SCE",
     "mainCategory": "engineer",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "SUSE Certified Engineer\\n    $195 practical exam"
   },
   {
     "adjacentCategory": [],
     "content": "ISA CE",
     "mainCategory": "engineer",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "ISA Cybersecurity Expert\\n    $2,700 course + exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "GDSA",
     "mainCategory": "engineer",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "GIAC Defensible Security Architecture\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "ITIL SL",
     "mainCategory": "mgmt",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "ITIL Strategic Leader\\n    $4,800 two course exams\\n    2 branded courses required"
   },
   {
     "adjacentCategory": [],
     "content": "Zach EAP",
     "mainCategory": "mgmt",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "Zachman Enterprise Architect Practitioner (Level 2)\\n    $2,999 exam & case study\\n    Level 1 cert not req'd"
   },
   {
     "adjacentCategory": [],
     "content": "GSLC",
     "mainCategory": "mgmt",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "GIAC Security Leadership Certification\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "S-CISO",
     "mainCategory": "mgmt",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "SECO Certified Information Security Officer\\n    Resume review"
   },
   {
     "adjacentCategory": [],
     "content": "GCFE",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "GIAC Cerified Forensics Examiner\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GEIR",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "GIAC Enterprise Incident Response\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "PACES",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "Pentester Academy Certified Enterprise Security Specialist\\n    $339-749 Lab access\\n    Exam included"
   },
   {
     "adjacentCategory": [],
     "content": "S-CEHL",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "SECO Certified Ethical Hacker Leader\\n    Application"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CRT",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "CREST Registered Penetration Tester\\n    $612 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CRTO II",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "Zero Point Security Red Team Operator II\\n    $121 lab"
   },
   {
     "adjacentCategory": [],
     "content": "MCD",
     "mainCategory": "ops",
-    "skillLevel": 9
+    "skillLevel": 9,
+    "tooltiptext": "Mosse Institute Certified Code Deobfuscation Specialist Certification\\n    $450 certification programme\\n    100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "CCNP Sec",
     "mainCategory": "network",
-    "skillLevel": 10
+    "skillLevel": 10,
+    "tooltiptext": "Cisco Certified Network Professional - Security\\n    ~$1,200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIMP",
     "mainCategory": "iam",
-    "skillLevel": 10
+    "skillLevel": 10,
+    "tooltiptext": "Identify Management Institute Certified Identity Management Professional\\n    $295 + Membership"
   },
   {
     "adjacentCategory": [],
     "content": "CASP+",
     "mainCategory": "mgmt",
-    "skillLevel": 10
+    "skillLevel": 10,
+    "tooltiptext": "CompTIA Advanced Security Practitioner+\\n    $509 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GASF",
     "mainCategory": "ops",
-    "skillLevel": 10
+    "skillLevel": 10,
+    "tooltiptext": "GIAC Advanced Smartphone Forensics\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "eCTHP",
     "mainCategory": "ops",
-    "skillLevel": 10
+    "skillLevel": 10,
+    "tooltiptext": "eLearnSecurity Certified Threat Hunting Professional\\n    $400 lab"
   },
   {
     "adjacentCategory": [],
     "content": "S-EHE",
     "mainCategory": "ops",
-    "skillLevel": 10
+    "skillLevel": 10,
+    "tooltiptext": "SECO Ethical Hacker Expert\\n    TBD (still)\\n    Being redesigned"
   },
   {
     "adjacentCategory": [],
     "content": "JNCIP Sec",
     "mainCategory": "network",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Juniper Networks Certified Internet Professional, Security\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PCNSE",
     "mainCategory": "network",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Palo Alto Networks Certified Network Security Engineer\\n    $175 exam"
   },
   {
     "adjacentCategory": [],
     "content": "FCSS ZTA",
     "mainCategory": "network",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Fortinet Certified Solution Specialist - Zero Trust Access\\n    $800 two exams"
   },
   {
     "adjacentCategory": [],
     "content": "FCSS SASE",
     "mainCategory": "iam",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Fortinet Certified Solution Specialist - Secure Access Service Edge\\n    $800 two exams"
   },
   {
     "adjacentCategory": [],
     "content": "FCSS PCS",
     "mainCategory": "engineer",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Fortinet Certified Solution Specialist - Public Cloud Security\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCTD",
     "mainCategory": "engineer",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "GIAC Cloud Threat Detection\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CACE",
     "mainCategory": "engineer",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Excida IEC 62443 Certified Automation Cybersecurity Expert\\n    $700 exam"
   },
   {
     "adjacentCategory": [
@@ -575,31 +668,36 @@
     ],
     "content": "ITIL MP",
     "mainCategory": "mgmt",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "ITIL Managing Professional\\n    $9,600 4 course exams\\n    4 branded courses requires"
   },
   {
     "adjacentCategory": [],
     "content": "Scrum SPS",
     "mainCategory": "mgmt",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Scrum Scaled Professional Scrum\\n    $250 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GLEG",
     "mainCategory": "mgmt",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "GIAC Law of Data Security & Investigations\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CISSM",
     "mainCategory": "mgmt",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "GAQM Certified Information Systems Security Manager\\n    $170 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CGRC",
     "mainCategory": "mgmt",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "(ISC)2 Certified in Governance, Risk and Compliance\\n    $599 exam"
   },
   {
     "adjacentCategory": [
@@ -607,73 +705,85 @@
     ],
     "content": "CRISC",
     "mainCategory": "mgmt",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "ISACA Certified in Risk and Information Systems Control\\n    $760 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCCC",
     "mainCategory": "test",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "GIAC Critical Controls Certification\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "PCI QSA",
     "mainCategory": "test",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "PCI Qualified Security Assessor\\n                    $3000 req'd course"
   },
   {
     "adjacentCategory": [],
     "content": "GWEB",
     "mainCategory": "software",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "GIAC Certified Web Application Defender\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "Cisco COP",
     "mainCategory": "ops",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Cisco Certified CyberOps Professional\\n    $700 two exams"
   },
   {
     "adjacentCategory": [],
     "content": "CCFE",
     "mainCategory": "ops",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Infosec Institute Certified Computer Forensics Examiner\\n    $4,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "GCED",
     "mainCategory": "ops",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "GIAC Certified Enterprise Defender\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "MCPE",
     "mainCategory": "ops",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Mosse Institute Certified Cyber Protection Expert\\n    $800 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CCTIM",
     "mainCategory": "ops",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "CREST Certified Threat Intelligence Manager\\n    $2,480 3 exams"
   },
   {
     "adjacentCategory": [],
     "content": "OSCP",
     "mainCategory": "ops",
-    "skillLevel": 11
+    "skillLevel": 11,
+    "tooltiptext": "Offensive Security Certified Professional\\n    $1,499 labs"
   },
   {
     "adjacentCategory": [],
     "content": "F5 CSE Sec",
     "mainCategory": "network",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "F5 Big-IP Certified Solution Expert - Security\\n    $135 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCNP Ent",
     "mainCategory": "network",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "Cisco Certified Network Professional - Enterprise\\n    ~$600 exam"
   },
   {
     "adjacentCategory": [
@@ -681,43 +791,50 @@
     ],
     "content": "MS-100",
     "mainCategory": "engineer",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "Microsoft 365 Certified Enterprise Administrator Expert\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GPCS",
     "mainCategory": "engineer",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Public Cloud Security\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GCSA",
     "mainCategory": "engineer",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Cloud Security Automation\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GCWN",
     "mainCategory": "engineer",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Certified Windows Security Administrator\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GRID",
     "mainCategory": "engineer",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Response and Industrial Defense\\n    $979 exam\\n    SANS course encouraged"
   },
   {
     "adjacentCategory": [],
     "content": "CIS LI",
     "mainCategory": "engineer",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Implementer\\n    $2,008 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CIPT",
     "mainCategory": "asset",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "IAPP Certified Information Privacy Technologist\\n    $550 exam"
   },
   {
     "adjacentCategory": [
@@ -725,163 +842,190 @@
     ],
     "content": "CDPSE",
     "mainCategory": "asset",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "ISACA Certified Data Privacy Solutions Engineer\\n    $880 Application"
   },
   {
     "adjacentCategory": [],
     "content": "CSM",
     "mainCategory": "mgmt",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GAQM Certified Scrum Master\\n    $128 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CASM",
     "mainCategory": "mgmt",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GAQM Certified Agile Scrum Master\\n    $128 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CM)ISSO",
     "mainCategory": "mgmt",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "Mile2 Certified Master Information Systems Security Officer\\n    Complete C)SP, C)ISSO, C)ISSM and IS20 ($2200)"
   },
   {
     "adjacentCategory": [],
     "content": "S-ISP",
     "mainCategory": "mgmt",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "SECO Information Security Practitioner\\n    $550"
   },
   {
     "adjacentCategory": [],
     "content": "CISA",
     "mainCategory": "test",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "ISACA Certified Information Systems Auditor\\n    $760 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GMON",
     "mainCategory": "test",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Continuous Monitoring\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CIS LA",
     "mainCategory": "test",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Auditor\\n    $2,008 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "S-CSPL",
     "mainCategory": "software",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "SECO Secure Programming Certified Leader\\n    $460 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCDA",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Certified Detection Analyst\\n        $979 exam\\n        SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CMFE",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "Infosec Institute Certified Mobile Forensics Examiner\\n    $1,699 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "GX-FA",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Experienced Forensics Analyst\\n    $1299 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GCIH",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Certified Forensics Analystr\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GX-PT",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Experienced Penetration Tester\\n    $1299 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GPEN",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "GIAC Certified Penetration Tester\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "OSWP",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "Offensive Security Wireless Professional\\n    $450 labs"
   },
   {
     "adjacentCategory": [],
     "content": "CRTO",
     "mainCategory": "ops",
-    "skillLevel": 12
+    "skillLevel": 12,
+    "tooltiptext": "Zero Point Security Certified Red Team Operator\\n    $121 lab"
   },
   {
     "adjacentCategory": [],
     "content": "CCSM",
     "mainCategory": "network",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Checkpoint Certified Security Master\\n    $350 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PCSAE",
     "mainCategory": "network",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Palo Alto Certified Cloud Security Automation Engineer\\n    $350 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PCCSE",
     "mainCategory": "network",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Prisma Certified Cloud Security Engineer\\n    $350 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIAM",
     "mainCategory": "iam",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Identify Management Institute Certified Identify and Access Manager\\n    $390 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "FCSS SO",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Fortinet Certified Solution Specialist - Security Operations\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PDSO CDE",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "PDSO Certified DevSecOps Expert\\n    $1199\\n    Exam and training bundled"
   },
   {
     "adjacentCategory": [],
     "content": "VCP DCV",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "VMware Certified Professional in Datacenter Virtualization\\n    $375 exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CKS",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Cloud Native Computing Foundation Certified Kubernetes Security Specialist\\n    $375 lab\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "LFCS",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Linux Foundation Certified System Administrator\\n    $300 exam"
   },
   {
     "adjacentCategory": [],
     "content": "FCSS OT",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Fortinet Certified Solution Specialist - OT Security\\n    $400 exam"
   },
   {
     "adjacentCategory": [
@@ -889,299 +1033,347 @@
     ],
     "content": "CSSA",
     "mainCategory": "engineer",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Infosec Institute Certified SCADA Security Architect\\n    $4,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "Scrum PSD",
     "mainCategory": "mgmt",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Scrum Professional Scrum Developer\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCPM",
     "mainCategory": "mgmt",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "GIAC Certified Project Manager\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "BCS PCIRM",
     "mainCategory": "mgmt",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "BCS Practitioner Certificate in Information Risk Management\\n    $287 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PEXIN ISM",
     "mainCategory": "mgmt",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "EXIN Information Security Management Professional\\n    $268 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MGRC",
     "mainCategory": "mgmt",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Mosse Institute Certified GRC Expert Certification\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [
-      "mgmt",
       "test",
       "ops"
     ],
     "content": "CSSLP",
     "mainCategory": "software",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "(ISC)2 Certified Secure Software Lifecycle Professional\\n    $599 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MTH",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Mosse Institute Certified Threat Hunter Certification\\n                    $450 certification programme\\n                    100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "CDRP",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Infosec Institute Certified Data Recovery Professional\\n    $4,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "eCDFP",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "eLearnSecurity Certified Digital Forensics Professional\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GPYC",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "GIAC Python Coder\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "MDFIR",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "Mosse Institute Certified DFIR Specialist\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "LPT",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "EC Council Licensed Penetration Tester\\n    $899 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PNPT",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "TCM Security Practical Network Penetration Tester\\n    $299 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCPN",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "GIAC Cloud Penetration Tester\\n    $2,499 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GRTP",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "GIAC Red Team Professional\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CAPenX",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "The SecurityOps Group Certified AppSec Pentest eXpert\\n    $800 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GMOB",
     "mainCategory": "ops",
-    "skillLevel": 13
+    "skillLevel": 13,
+    "tooltiptext": "GIAC Mobile Device Security Analyst\\n    $399 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "FCSS NS",
     "mainCategory": "network",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Fortinet Certificed Solution Specialist - Network Security\\n    $800 two exams"
   },
   {
     "adjacentCategory": [],
     "content": "CIDPRO",
     "mainCategory": "iam",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "IDPro Certified Identity Professional\\n    $700 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCSP",
     "mainCategory": "engineer",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "(ISC)2 Certified Cloud Security Professional\\n    $599 exam"
   },
   {
     "adjacentCategory": [],
     "content": "FCP PCS",
     "mainCategory": "engineer",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Fortinet Certified Professional - Public Cloud Security\\n    $400 for 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "FCP SO",
     "mainCategory": "engineer",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Fortinet Certified Professional - Security Operations\\n    $400 for 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "RHCSA",
     "mainCategory": "engineer",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Red Hat Certified System Administrator\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ISA CDS",
     "mainCategory": "engineer",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "ISA Certified Design Specialist\\n    $2,700 course + exam"
   },
   {
     "adjacentCategory": [],
     "content": "SFCTA",
     "mainCategory": "engineer",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Salesforce Certified Technical Architect\\n    $6000\\n    Must be SF SA Certified"
   },
   {
     "adjacentCategory": [],
     "content": "EPDPP",
     "mainCategory": "asset",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "EXIN Privacy and Data Protection Practitioner\\n    $243 Exam\\n    Course req'd"
   },
   {
     "adjacentCategory": [],
     "content": "M_o_R P",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Axelos M_o_R Practitioner Risk Management\\n    $560 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CPD",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "GAQM Certified Project Director\\n    $210 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PMI ACP",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "PMI Agile Certified Practitioner\\n    $495 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EISM",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "EC Council Information Security Manager\\n    $3,499\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CGEIT",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "ISACA Certified in the Governance of Enterprise IT\\n    $760 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN 27001E",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "EXIN ISO/IEC 27001 Expert\\n    ~$379 Oral Presentation"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27005LM",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "PECB ISO/IEC 27005 Lead Risk Manager\\n    ~$1,595 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "DCCRP",
     "mainCategory": "mgmt",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "DRI Certified Cyber Resilience Professional\\n    $400 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCIA",
     "mainCategory": "test",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "GIAC Certified Intrusion Analyst\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "CTPRA",
     "mainCategory": "test",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Shared Assessment Certified Third-Party Risk Assessor\\n    $1295 course"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27001LA",
     "mainCategory": "test",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "PECB ISO/IEC 27001 Lead Auditor\\n    $930 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "DevNet Pro",
     "mainCategory": "software",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Cisco DevNet Professional\\n    $1200 two exams\\n    DevNet Associate req'd"
   },
   {
     "adjacentCategory": [],
     "content": "SC-400",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Microsoft Certified Information Protection Administrator Associate\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCE",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "ISFCE Certified Computer Examiner\\n    $485 written exam"
   },
   {
     "adjacentCategory": [],
     "content": "CM)DFI",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Mile2 Certified Master Digital Forensic Investigator\\n    Complete C)SP, C)DFE, C)NFE and C)CSA ($2200)"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CRIA",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "CREST Registered Intrusion Analyst\\n    $612 exam & lab"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CRTIA",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "CREST Registered Threat Intelligence Analyst\\n    $615 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "GWAPT",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "GIAC Web Application Penetration Tester\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "OSMR",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "Offensive Security MacOS Researcher\\n    $2,499 exam\\n    Learning subscription required"
   },
   {
     "adjacentCategory": [],
     "content": "GCPT",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "GAQM Certified Penetration Tester\\n    $128 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCPenX-AWS",
     "mainCategory": "ops",
-    "skillLevel": 14
+    "skillLevel": 14,
+    "tooltiptext": "The SecurityOps Group Certified Cloud Pentest eXpert-AWS\\n    $800 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCSE",
     "mainCategory": "network",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Checkpoint Certified Security Expert\\n    $250 exam"
   },
   {
     "adjacentCategory": [
@@ -1189,277 +1381,323 @@
     ],
     "content": "AWS CSS",
     "mainCategory": "engineer",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Amazon Web Services Certified Security - Specialty\\n    $150 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SFCCCC",
     "mainCategory": "engineer",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "SalesForce Certified Community Cloud Consultant\\n    $200 exam\\n    Must be SalesForce Admin Certified"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN PCSA",
     "mainCategory": "engineer",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "EXIN Professional Cloud Solution Architect\\n    $315 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CKA",
     "mainCategory": "engineer",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Cloud Native Computing Foundation Certified Kubernetes Administrator\\n    $375 lab\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "TUV COTCP",
     "mainCategory": "engineer",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "TUV Rheinland Certified Operational Technology Cybersecurity Professional (GERMAN)\\n                        $415 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SABSA SCF",
     "mainCategory": "engineer",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "SABSA Chartered Security Architect - Foundation Certificate\\n    $3,750 exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CIPA",
     "mainCategory": "asset",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "IMI Certified Identity Protection comptia-advanced-security-practitioner\\n    $295 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "DCPP",
     "mainCategory": "asset",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "DSCI Certified Privacy Professional\\n    $205 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "Scrum PAL",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Scrum  Professional Agile Leadership\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CAPM",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "PMI Certified Associate in Project Management\\n    $300 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PSM II",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Scrum.org Professional Scrum Master II\\n    $250 exam"
   },
   {
     "adjacentCategory": [],
     "content": "APMG 20000P",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "APMG ISO/IEC 20000 Practitioner\\n    $308 Exam\\n    Foundation or ITIL req'd"
   },
   {
     "adjacentCategory": [],
     "content": "C)ISRM",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mile2 Certified Information Systems Risk Manager\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "APMG 27001P",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "APMG ISO/IEC 27001 Practitioner\\n    $400 exam\\n    Application essay"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27001LI",
     "mainCategory": "mgmt",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "PECB ISO/IEC 27001 Lead Implementer\\n    $930 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "IS20",
     "mainCategory": "test",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mile2 IS20 Controls\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)ISSA",
     "mainCategory": "test",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mile2 Certified Information Systems Security Auditor\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "APMG 27001A",
     "mainCategory": "test",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "APMG ISO/IEC 27001 Auditor\\n    $400 exam\\n    Application essay"
   },
   {
     "adjacentCategory": [],
     "content": "CASE",
     "mainCategory": "software",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "EC Council Certified Application Security Engineer (.NET or Java)\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)DRE",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mile2 Certified Disaster Recovery Engineer\\n                    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GSOC",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "GIAC Security Operations Certified\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GBFA",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "GIAC Battlefield Forensics and Acquisition\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "BTL1",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Security Blue Team Level 1\\n    $660 course\\n    1 exam attempt included"
   },
   {
     "adjacentCategory": [],
     "content": "MBT",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mosse Institute Certified Blue Teamer Certification\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "MPT",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mosse Institute Certified Penetration Tester Certification\\n    $450 certification programme\\n    100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "CPENT",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "EC Council Certified Penetration test Professional\\n    $999 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CCTAPP",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "CREST Certified Web Application Tester\\n    $2,520 exam & lab"
   },
   {
     "adjacentCategory": [],
     "content": "HTB CPTS",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Hack the Box Certified Penetration test Specialist\\n    $200 modules + $210 exam\\n    $490 Subscription available"
   },
   {
     "adjacentCategory": [],
     "content": "MRE",
     "mainCategory": "ops",
-    "skillLevel": 15
+    "skillLevel": 15,
+    "tooltiptext": "Mosse Institute Certified Reverse Engineer Certification\\n    $450 certification programme\\n    100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "JNCIS Sec",
     "mainCategory": "network",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Juniper Networks Certified Internet Specialist, Security\\n    $300 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Programming Language",
     "mainCategory": "mgmt",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Learning a programming language is valuable to any IT professionals career.\\n    Recommendations: Python, Ruby, C++"
   },
   {
     "adjacentCategory": [],
     "content": "GMLE",
     "mainCategory": "software",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "GIAC Machine Learning Engineer\\n    $979 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CCHIA",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "CREST Certified Host intrustion Analyst\\n    $2,481 exam & essay\\n    Hands on exam in UK"
   },
   {
     "adjacentCategory": [],
     "content": "EnCE",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "OpenText EnCase Certified Examiner\\n    $200 two exams"
   },
   {
     "adjacentCategory": [],
     "content": "ACE",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "AccessData Certified Examiner\\n    $100 + software"
   },
   {
     "adjacentCategory": [],
     "content": "eCIR",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "eLearnSecurity Certified Incident Responder\\n    $400 lab"
   },
   {
     "adjacentCategory": [],
     "content": "C)IHE",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Mile2 Certified Incident Handling Engineer\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSTL",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Cyber Scheme Team Leader\\n    $1945 exam"
   },
   {
     "adjacentCategory": [],
     "content": "eCPPT",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "eLearnSecurity Certified Professional Penetration Tester\\n    $400 lab"
   },
   {
     "adjacentCategory": [],
     "content": "eWPT",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "eLearnSecurity Web Application Penetration Tester\\n    $400 lab"
   },
   {
     "adjacentCategory": [],
     "content": "CM)IPS",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Mile2 Certified Master Intrusion Prevention Specialist\\n    Complete C)VA, C)PEH, C)PTE and C)PTC ($2200)"
   },
   {
     "adjacentCategory": [],
     "content": "HTB CBBH",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Hack the Box Certified Bug Bounty Hunter\\n    $145 modules + $210 exam\\n    $490 Subscription available"
   },
   {
     "adjacentCategory": [],
     "content": "PJMR",
     "mainCategory": "ops",
-    "skillLevel": 16
+    "skillLevel": 16,
+    "tooltiptext": "Practical Junior Malware Researcher\\n    $399 lab"
   },
   {
     "adjacentCategory": [],
     "content": "F5 CTS APM",
     "mainCategory": "network",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "F5 Big-IP Certified Technical Specialist - Access Policy Manager\\n    $135 exam"
   },
   {
     "adjacentCategory": [],
     "content": "FCP NS",
     "mainCategory": "network",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Fortinet Certified Professional - Network Security\\n    $400 for 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "CCNA",
     "mainCategory": "network",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Cisco Certified Network Associate\\n    ~$330 exam"
   },
   {
     "adjacentCategory": [
@@ -1467,43 +1705,50 @@
     ],
     "content": "AZ-500",
     "mainCategory": "engineer",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Microsoft Azure Security Engineer Associate\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSA CGC",
     "mainCategory": "engineer",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Cloud Security Alliance Cloud Governance & Compliance\\n    $315 exam"
   },
   {
     "adjacentCategory": [],
     "content": "VCP NV",
     "mainCategory": "engineer",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "VMware Certified Professional in Network Virtualization\\n    $375 exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CKAD",
     "mainCategory": "engineer",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Cloud Native Computing Foundation Certified Kubernetes Application Developer\\n    $375 lab\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "LPIC-2",
     "mainCategory": "engineer",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Linux Professional Institute Certified: Linux Engineer\\n    $400 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "GCIP",
     "mainCategory": "engineer",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "GIAC Critical Infrastructure Protection\\n    $979 exam\\n    SANS course encouraged"
   },
   {
     "adjacentCategory": [],
     "content": "CIMP",
     "mainCategory": "asset",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "IMI Certified Identity Management Professional\\n    $295 Exam"
   },
   {
     "adjacentCategory": [
@@ -1511,181 +1756,211 @@
     ],
     "content": "CDP",
     "mainCategory": "asset",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "IMI Certified in Data Protection\\n    $395 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCP",
     "mainCategory": "mgmt",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "EC First Certified CCMC Professional\\n    $2,995 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "C)ISSO",
     "mainCategory": "mgmt",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Mile2 Certified Information Systems Security Officer\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIS RM",
     "mainCategory": "mgmt",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "IBITGQ Certified ISO 27005 Information Security Management Specialist Risk Management\\n    $2,783 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN 27001P",
     "mainCategory": "mgmt",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "EXIN ISO/IEC 27001 Professional\\n    $279 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27032CM",
     "mainCategory": "mgmt",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "PECB ISO/IEC 27032 Lead Cybersecurity Manager\\n    $899-$2,999 course exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "C)HISSP",
     "mainCategory": "mgmt",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Mile2 Certified Healthcare Information Systems Security Practitioner\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "APMG 20000A",
     "mainCategory": "test",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "APMG ISO/IEC 20000 Auditor\\n    $308 Exam\\n    Possible Course Req"
   },
   {
     "adjacentCategory": [],
     "content": "C)ISMS-LA",
     "mainCategory": "test",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Mile2 Certified Information security Management Systems Lead Auditor\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIS IA",
     "mainCategory": "test",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "IBITGQ Certified ISO 27001 Information Security Management Specialist Internal Auditor\\n    $1543 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CASST",
     "mainCategory": "software",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "GAQM Certified Advanced Software Security Tester\\n    $210 exam"
   },
   {
     "adjacentCategory": [],
     "content": "OSIP",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "IntelTechniques Open Source Intelligence Professional\\n    $300 practical exam"
   },
   {
     "adjacentCategory": [],
     "content": "Cisco COA",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Cisco Certified CyberOps Associate Cyber Operations\\n    ~$325 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)CSA",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Mile2 Certified Cybersecurity Analyst\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CHFI",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "EC Council Computer Hacking Forensics Investigator\\n    $650 exam"
   },
   {
     "adjacentCategory": [],
     "content": "S-TA",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "SECO Certified Threat Analyst\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ECIH",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "EC Council Certified Incident Handler\\n    $300 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)PSH",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Mile2 Certified Powershell Hacker\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CMWAPT",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Infosec Institute Certified Mobile and Web App Penetration Tester\\n    $4,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "C)PTC",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Mile2 Certified Penetration test Consultant\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CRTOP",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Infosec Institute Certified Red Team Operations Professional\\n    $4,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CSR",
     "mainCategory": "ops",
-    "skillLevel": 17
+    "skillLevel": 17,
+    "tooltiptext": "Cyber Struggle Ranger\\n    Location Based Cost\\n    Course Req"
   },
   {
     "adjacentCategory": [],
     "content": "F5 CTS DNS",
     "mainCategory": "network",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "F5 Big-IP Certified Technical Specialist - Domain Name Services\\n    $135 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PCDRA",
     "mainCategory": "network",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Palo Alto Networks Certified Detection and Remediation Analyst\\n    $155 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SF CIAMD",
     "mainCategory": "iam",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "SalesForce Certified Identity and Access Management Designer\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCLD",
     "mainCategory": "engineer",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "GIAC Cloud Security Essentials\\n    $979 exam SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "AWS SAA",
     "mainCategory": "engineer",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Amazon Web Services Certified Solutions Architect - Associate\\n    $150 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN PCSerM",
     "mainCategory": "engineer",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "EXIN Professional Cloud Service Manager\\n    $315 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ISA CRAS",
     "mainCategory": "engineer",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "ISA Certified Risk Assesment Specialist\\n    $2,700 course + exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "SPLK-",
     "mainCategory": "engineer",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Splunk Enterprise Security Certified Administrator\\n    $130 exam\\n    Branded course recommended"
   },
   {
     "adjacentCategory": [
@@ -1693,181 +1968,211 @@
     ],
     "content": "BCS PCIAA",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "BCS Practitioner Certificate in Information Assurance Architecture\\n    $290 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCSA",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "EC First Certified Cyber Security Architect\\n    $695 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PPM",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "GAQM Professional in Project Management\\n    $210 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)ISSM",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Mile2 Certified Information Systems Security Manager\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "TUV ITSM",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "TUV IT Security Manager (GERMAN)\\n    $415 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CCRMP",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "IBITGQ Certified in Managing Cyber Security Risk\\n    $2,629 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27005RM",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "PECB ISO/IEC 27005 Risk Manager\\n    ~$995 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CSBA",
     "mainCategory": "mgmt",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "QAI Certified Software Business Analyst\\n    $350 exam + written essay"
   },
   {
     "adjacentCategory": [],
     "content": "DCBCLA",
     "mainCategory": "test",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "DRI Certified Business Continuity Lead Auditor\\n    $400 exam\\n    Application req"
   },
   {
     "adjacentCategory": [],
     "content": "TUV MSA",
     "mainCategory": "test",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "TUV Rheinland Mobile Security Analyst (GERMAN)\\n    $415 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "DevNet A",
     "mainCategory": "software",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Cisco DevNet Associate\\n    $300 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "CySA+",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "CompTIA Cybersecurity Analyst+\\n    $404 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSX-P",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "ISACA Cybersecurity Practitioner\\n    $549 lab"
   },
   {
     "adjacentCategory": [],
     "content": "C)NFE",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Mile2 Certified Network Forensics Examiner\\n    $550 exam\\n    Groups only"
   },
   {
     "adjacentCategory": [],
     "content": "GOSI",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "GIAC Open Source Intelligence\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "C)TIA",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Mile2 Certified Threat Intelligence Analyst\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "OSDA",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Offensive Security Defense Analyst\\n    $2,499 exam\\n    Learning subscription required"
   },
   {
     "adjacentCategory": [],
     "content": "eMAPT",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "eLearnSecurity Mobile Application Penetration Tester\\n    $400"
   },
   {
     "adjacentCategory": [],
     "content": "BSCP",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Portswigger Burp Suite Certified Practioner\\n    $99 exam"
   },
   {
     "adjacentCategory": [],
     "content": "OPST",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "ISECOM OSSTMM Professional Security Tester\\n    Unknown"
   },
   {
     "adjacentCategory": [],
     "content": "OSWA",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Offensive Security Web Assessor\\n    $2,499 Exam\\n    Learning subscription required"
   },
   {
     "adjacentCategory": [],
     "content": "CREA",
     "mainCategory": "ops",
-    "skillLevel": 18
+    "skillLevel": 18,
+    "tooltiptext": "Infosec Institute Certified Reverse Engineering Analyst\\n    $4,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CWSP",
     "mainCategory": "network",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "CWNP Certified Wireless Security Professional\\n    $325 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CCNIA",
     "mainCategory": "network",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "CREST Certified Network Intrusion Analyst\\n    $2,481 exam & essay\\n    Hands on exam in UK"
   },
   {
     "adjacentCategory": [],
     "content": "CIGE",
     "mainCategory": "iam",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "IMI Certified Identity Governance Expert\\n    $395 exam"
   },
   {
     "adjacentCategory": [],
     "content": "AZ-104",
     "mainCategory": "engineer",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Microsoft Azure Administrator Associate\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CLCSM",
     "mainCategory": "engineer",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "PECB Lead Cloud Security Manager\\n    ~$930 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CCSE",
     "mainCategory": "engineer",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "EC Council Certified Cloud Security Engineer\\n    $100 exam\\n    EC Council Course Recommended"
   },
   {
     "adjacentCategory": [],
     "content": "MCSE",
     "mainCategory": "engineer",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Mosse Institute Cloud Security Engineer\\n                    $600 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SFSA",
     "mainCategory": "engineer",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "SalesForce System Architect\\n    $400 hands-on lab"
   },
   {
     "adjacentCategory": [
@@ -1875,727 +2180,848 @@
     ],
     "content": "ASIS APP",
     "mainCategory": "asset",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "ASIS Associate Protection Professional\\n    $350 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CNDA",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "EC Council Certified Network Defense Architect\\n    $200 application\\n    Requires CEH cert"
   },
   {
     "adjacentCategory": [],
     "content": "DACRP",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "DRI Associate Cyber Resilience Professional\\n    $200 exam\\n    Course req"
   },
   {
     "adjacentCategory": [],
     "content": "CISRM",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "IBITGQ Certified ISO 27005 Information Security Management Specialist Risk Management\\n    $2,783 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "DCRMP",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "DRI Certified Risk Management Professional\\n    $400 exam\\n    Application essay"
   },
   {
     "adjacentCategory": [],
     "content": "SSAP",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "SANS Security Awareness Professional\\n    $1219 Exam\\n    SANS MGT433 course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "GRCP",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "OCEG Governance, Risk, and Compliance Professional\\n    $399 12 month license"
   },
   {
     "adjacentCategory": [],
     "content": "SACP",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "The H Layer Security Awareness and Culture Professional\\n    $369 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "CISP",
     "mainCategory": "mgmt",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "GAQM Certified Information Security Professional\\n    $170 exam"
   },
   {
     "adjacentCategory": [],
     "content": "TUV Auditor",
     "mainCategory": "test",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "TUV Rheinland IT Security Auditor (GERMAN)\\n    $415 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CTPRP",
     "mainCategory": "test",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Shared Assessment Certified Third-Party Risk Professional\\n    $1295 course"
   },
   {
     "adjacentCategory": [],
     "content": "IIA CIA",
     "mainCategory": "test",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "The Institute of Internal Auditors Certified Internal Auditor\\n    $1315 3 exams"
   },
   {
     "adjacentCategory": [],
     "content": "CCSC",
     "mainCategory": "software",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "CertNexus Cyber Secure Coder\\n    $300 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SC-200",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Microsoft Certified: Security Operations Analyst Associate\\n    ~$165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MRCI",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Mosse Institute Remote Cybersecurity Internship Programme\\n  $49 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "EDRP",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "EC Council Disaster Recovery Professional\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "HTB CDSA",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Hack the Box Certified Defensive Security Analyst\\n                    $145 modules + $210 exam\\n                    $490 Subscription available"
   },
   {
     "adjacentCategory": [],
     "content": "CFR",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "CertNexus CyberSec First Responder\\n    $250 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CTIA",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "EC Council Certified Threat intelligence Analyst\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSTM",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "Cyber Scheme Team Member\\n    $610 exam"
   },
   {
     "adjacentCategory": [],
     "content": "eJPT",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "eLearnSecurity Junior Penetration Tester\\n    $249 lab"
   },
   {
     "adjacentCategory": [],
     "content": "S-EHP",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "SECO Ethical Hacking Practitioner\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CHAT",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "ISECOM Certified Hacker Analyst Trainer\\n    $100 annual sub\\n    Unknown exam price"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CPSA",
     "mainCategory": "ops",
-    "skillLevel": 19
+    "skillLevel": 19,
+    "tooltiptext": "CREST Practitioner Security Analyst\\n    $425 exam"
   },
   {
     "adjacentCategory": [],
     "content": "F5 CA",
     "mainCategory": "network",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "F5 Big-IP Certified Administrator\\n    $135 exam"
   },
   {
     "adjacentCategory": [],
     "content": "eNDP",
     "mainCategory": "network",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "eLearnSecurity Network Defense Professional\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIST",
     "mainCategory": "iam",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "IMI Certfied Identity and Security Technologist\\n    $295 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Google PCSE",
     "mainCategory": "engineer",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Google Professional Cloud Security Engineer\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN PCSM",
     "mainCategory": "engineer",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "EXIN Professional Cloud Security Manager\\n    $315 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MDSO",
     "mainCategory": "engineer",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mosse Institute Certified DevSecOps Engineer\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SCA",
     "mainCategory": "engineer",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "SUSE Certified Administrator\\n    $149 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ISA CAP",
     "mainCategory": "engineer",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "ISA Certified Automation Specialist\\n    $467 exam"
   },
   {
     "adjacentCategory": [],
     "content": "TUV COSM",
     "mainCategory": "engineer",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "TUV Certified OT Security Manager\\n    $3,070 Course"
   },
   {
     "adjacentCategory": [],
     "content": "Zach EAA",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Zachman Enterprise Architect Associate (Level 1)\\n    $2,999 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CAD",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "GAQM Certified Agile Developer\\n    $128 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CAC",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "GAQM Certified Agile Coach\\n    $170"
   },
   {
     "adjacentCategory": [],
     "content": "ISMI CSMP",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "ISMI Certified Security Management Professional\\n    $1159"
   },
   {
     "adjacentCategory": [],
     "content": "CSCS",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "EC First Certified Security Compliance Specialist\\n    $695 exam"
   },
   {
     "adjacentCategory": [],
     "content": "APMG 27001F",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "APMG ISO/IEC 27001 Foundation\\n    $400 exam\\n    Application essay"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27001F",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "PECB ISO/IEC 27001 Foundation\\n    $500-749 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "C)SLO",
     "mainCategory": "mgmt",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mile2 Certified Security Leadership Officer\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "DCBCA",
     "mainCategory": "test",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "DRI Certified Business Continuity Auditor\\n    $400 exam\\n    Application req"
   },
   {
     "adjacentCategory": [],
     "content": "GRCA",
     "mainCategory": "test",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "OCEG Governance, Risk, and Compliance Auditor\\n    $399 12 month license"
   },
   {
     "adjacentCategory": [],
     "content": "CISST",
     "mainCategory": "test",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "GAQM Certified Information systems Security Tester\\n    $170 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)SWAE",
     "mainCategory": "software",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mile2 Secure Web Application Engineer\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "OPSA",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "ISECOM OSSTMM Professional Security Analyst\\n    $100 annual sub\\n    Unknown exam fee"
   },
   {
     "adjacentCategory": [],
     "content": "CSAE",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Cyber Struggle AEGIS\\n    $1,700 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "ASIS PCI",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "ASIS Professional Certified Investigator\\n    $485 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MAD SOCA",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mitre Att&ck Defender Security Operations Center Assessment\\n                    $299 annual subscription"
   },
   {
     "adjacentCategory": [],
     "content": "MAD CTI",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mitre Att&ck Defender Cyber Threat intelligence\\n                    $299 annual subscription"
   },
   {
     "adjacentCategory": [],
     "content": "CEH",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "EC Council Certified Ethical Hacker\\n    $1,199 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CAPen",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "The SecOps Group Certified AppSec Pentester\\n    $500 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)PTE",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mile2 Certified Penetration test Engineer\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CNPen",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "The SecOps Group Certified Network Pentester\\n    $500 exam"
   },
   {
     "adjacentCategory": [],
     "content": "DV RTOS",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Dark Vortex Red Team & Operational Security\\n    $2500 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "DV OTD",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Dark Vortex Offensive Tool Development\\n    $2000 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "MVRE",
     "mainCategory": "ops",
-    "skillLevel": 20
+    "skillLevel": 20,
+    "tooltiptext": "Mosse Institute Vulnerability Researcher and Exploitation Specialist\\n                    $450 Exam"
   },
   {
     "adjacentCategory": [],
     "content": "MNSE",
     "mainCategory": "network",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Mosse Institute Network Security Essentials\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "PCNSA",
     "mainCategory": "network",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Palo Alto Networks Certified Network Security Administrator\\n  $155 exam"
   },
   {
     "adjacentCategory": [],
     "content": "OWSE",
     "mainCategory": "network",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "ISECOM OSSTMM Wireless Security Expert\\n    $100 annual sub\\n    Unknown exam cost"
   },
   {
     "adjacentCategory": [],
     "content": "SC-300",
     "mainCategory": "iam",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Microsoft Certfied: Identity and Access Administrator Associate\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSA CCSK",
     "mainCategory": "engineer",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Cloud Security Alliance Certificate of Cloud Security Knowledge\\n    $395 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)CSO",
     "mainCategory": "engineer",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Mile2 Certified Cloud Security Officer\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "DCA",
     "mainCategory": "engineer",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Docker Certified Associate\\n    $195 exam"
   },
   {
     "adjacentCategory": [],
     "content": "LPIC-1",
     "mainCategory": "engineer",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Linux Professional Institute Certified: Linux Administrator\\n    $400 2 exams"
   },
   {
     "adjacentCategory": [],
     "content": "GICSP",
     "mainCategory": "engineer",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "GIAC Global Industrial Security Professional\\n    $979 exam\\n    SANS course encouraged"
   },
   {
     "adjacentCategory": [],
     "content": "GSEC",
     "mainCategory": "mgmt",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "GIAC Security Essentials Certification\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "MOIS",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "MOIS Certified OSINT Expert Certification\\n  $450 certification programme\\n  100% practical. No expiry."
   },
   {
     "adjacentCategory": [],
     "content": "CFA",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "GAQM Certified Forensic Analyst\\n    $128 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSA",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "EC Council Certified SOC Analyst\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GFACT",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "GIAC Foundational Cybersecurity Technologies\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CMPen And",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "The SecOps Group Certified Mobile Pentester - Android\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CMPen iOS",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "The SecOps Group Certified Mobile Pentester - iOS\\n    $400 exam"
   },
   {
     "adjacentCategory": [],
     "content": "DV MoS",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "Dark Vortex Malware on Steroids\\n    $2000 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "Pentest+",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "CompTIA Pentest+\\n    $404 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CSAS",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "CREST Certified Simulated Attack Specialist\\n    $2,520 2 exams & lab"
   },
   {
     "adjacentCategory": [],
     "content": "ECES",
     "mainCategory": "ops",
-    "skillLevel": 21
+    "skillLevel": 21,
+    "tooltiptext": "EC Council Certified Encryption Specialist\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "JNCIA Sec",
     "mainCategory": "network",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Juniper Networks Certified Internet Associate, Security\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "FCA",
     "mainCategory": "network",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Fortinet Certificed Associate\\n    Free course and exam required"
   },
   {
     "adjacentCategory": [],
     "content": "WCNA",
     "mainCategory": "network",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Protocol Analysis Institute Wireshark Certified Network Analyst\\n    $299 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Server+",
     "mainCategory": "engineer",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "CompTIA Server+\\n    $319 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PDSO CDP",
     "mainCategory": "engineer",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "PDSO Certified DevSecOps Professional\\n    $799\\n    Exam and training bundled"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN PCD",
     "mainCategory": "engineer",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "EXIN Professional Cloud Developer\\n    $315 exam"
   },
   {
     "adjacentCategory": [],
     "content": "KCNA",
     "mainCategory": "engineer",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Cloud Native Computing Foundation Kubernetes and Cloud Native Associate\\n    $250 exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "Linux+",
     "mainCategory": "engineer",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "CompTIA Linux+\\n    $369 exam"
   },
   {
     "adjacentCategory": [],
     "content": "AZ-220",
     "mainCategory": "engineer",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Azure IoT Developer Specialty\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CRFS",
     "mainCategory": "asset",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "IMI Certified Red Flag Specialist\\n    $295 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SSCP",
     "mainCategory": "mgmt",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "(ISC)2 Systems Security Certified Practitioner\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CAP",
     "mainCategory": "software",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "SecOps Group Certified AppSec Practitioner\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCOA",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "ISACA Certified Cybersecurity Operations Analyst\\n    $760 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CPIA",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "CREST Practitioner Intrusion Analyst\\n    $425 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MESE",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Mosse Institute Enterprise Security Engineer\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CREST CPTIA",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "CREST Practitioner Threat Intelligence Analyst\\n    $425 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MCPT",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Mosse Institute Cloud Penetration Tester\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)PEH",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "Mile2 Certified Professional Ethical Hacker\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "GCPEH",
     "mainCategory": "ops",
-    "skillLevel": 22
+    "skillLevel": 22,
+    "tooltiptext": "GAQM Certified Professional Ethical Hacker\\n    $170 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCSA",
     "mainCategory": "network",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Checkpoint Certified Security Administrator\\n    $250 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ITS-NS",
     "mainCategory": "network",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Certiport IT Specialist - Network Security\\n    $127 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CCT",
     "mainCategory": "network",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Cisco Certified Technician\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Cloud+",
     "mainCategory": "engineer",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "CompTIA Cloud+ \\n    $369 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Google ACE",
     "mainCategory": "engineer",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Google Associate Cloud Engineer\\n    $125 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SOG CCSP-AWS",
     "mainCategory": "engineer",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "SecOps Group Certified Cloud Security Practitioner - AWS\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "LFCA",
     "mainCategory": "engineer",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Linux Foundation Certified IT Associate\\n    $200 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ISA CFS",
     "mainCategory": "engineer",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "ISA Certified Fundamentals Specialist\\n    $2,700 course + exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "EITCA/IS",
     "mainCategory": "engineer",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "EITCA/IS Information Security Certificate\\n    $120 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIPP",
     "mainCategory": "asset",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "IAPP Certified Information Privacy Professional\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Security+",
     "mainCategory": "mgmt",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "CompTIA Security+\\n    $404 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ECSS",
     "mainCategory": "ops",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "EC Council Certified Security Specialist\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)DFE",
     "mainCategory": "ops",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Mile2 Certified Digital Forensics Examiner\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "S-SA",
     "mainCategory": "ops",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "SECO Associate SOC Analyst\\n    $480 exam"
   },
   {
     "adjacentCategory": [],
     "content": "DV AOPH",
     "mainCategory": "ops",
-    "skillLevel": 23
+    "skillLevel": 23,
+    "tooltiptext": "Dark Vortex Adversary Operations and Proactive Hunting\\n    $2500 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "SOG NSP",
     "mainCategory": "network",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "SecOps Group Certified Network Security Practitioner\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Net+",
     "mainCategory": "network",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "CompTIA Network+\\n    $369 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CAMS",
     "mainCategory": "iam",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "IMI Certfied Access Management Specialist\\n    $195 exam"
   },
   {
     "adjacentCategory": [],
     "content": "AZ-900",
     "mainCategory": "engineer",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Microsoft Azure Fundamentals\\n    $165 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MCSF",
     "mainCategory": "engineer",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Mosse Institute Cloud Services Fundamentals\\n                    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MSAF",
     "mainCategory": "engineer",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Mosse Institute System Administration Fundamentals\\n                    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Apple ACSP",
     "mainCategory": "engineer",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Apple Certified Support Professional\\n    $250 exam\\n    Limited test locations"
   },
   {
     "adjacentCategory": [],
     "content": "CACS",
     "mainCategory": "engineer",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Excida IEC 62443 Certified Automation Cybersecurity Specialist\\n    $700 exam"
   },
   {
     "adjacentCategory": [],
     "content": "TUV COSTE",
     "mainCategory": "engineer",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "TUV Certified OT Security Technical Expert\\n    $3,070 course"
   },
   {
     "adjacentCategory": [],
     "content": "EPDPF",
     "mainCategory": "asset",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "EXIN Privacy and Data Protection Foundation\\n    $207 exam"
   },
   {
     "adjacentCategory": [
@@ -2603,211 +3029,246 @@
     ],
     "content": "TOGAF Fdn",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "OpenGroup TOGAF Certified\\n    $360 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSP",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "GAQM Certified SAFe Practitioner\\n    $170 exam"
   },
   {
     "adjacentCategory": [],
     "content": "IIBA CCA",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "IIBA Certification in Cybersecurity Analysis\\n    $475 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CITGP",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "IBITGQ Certified in Implementing IT Governance - Foundation & Principles\\n    ~$2,499 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "C)ISCAP",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Mile2 Information Systems Certification and Accredidation Professional\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSAP",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Infosec Institute Certified Security Awareness Practitioner\\n    $2,599 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27032F",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "PECB ISO/IEC 27032 Foundation\\n    $500-749 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "MCL",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Mosse Institute Cybersecurity Leadership\\n                    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ITS-C",
     "mainCategory": "mgmt",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Certiport IT Specialist - Cybersecurity\\n                    $127 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN CIT",
     "mainCategory": "test",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "EXIN Cyber & IT Security\\n    $225 exam"
   },
   {
     "adjacentCategory": [],
     "content": "TUV CySec",
     "mainCategory": "test",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "TUV Rheinland Cybersecurity Specialist (GERMAN)\\n    $415 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "CSST",
     "mainCategory": "software",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "GAQM Certified Software Security Tester\\n    $170 exam"
   },
   {
     "adjacentCategory": [],
     "content": "OPSE",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "ISECOM OSSTMM Professional Security Expert\\n    $100 annual sub\\n    Unknown exam cost"
   },
   {
     "adjacentCategory": [],
     "content": "CSX-F",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "IBITGQ Cyber Incident Response Management Foundation\\n    $768 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "DV MILF",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "Dark Vortex Malware Incident and Log Foensics\\n    $2000 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIRM Fdn",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "IBITGQ Cyber Incident Response Management Foundation\\n    $768 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "EEHF",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "EXIN Ethical Hacking Foundation\\n    $232 exam"
   },
   {
     "adjacentCategory": [],
     "content": "S-EHF",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "SECO Ethical Hacking Foundation\\n    $460 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CHA",
     "mainCategory": "ops",
-    "skillLevel": 24
+    "skillLevel": 24,
+    "tooltiptext": "ISECOM Certified Hacker Analyst\\n    $100 annual sub\\n    Unknown exam cost"
   },
   {
     "adjacentCategory": [],
     "content": "FCF",
     "mainCategory": "network",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Fortinet Certified Fundamentals Cybersecurity\\n    Free 3 courses with exams req"
   },
   {
     "adjacentCategory": [],
     "content": "PCCET",
     "mainCategory": "network",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Palo Alto Networks Certified Cybersecurity Entry-level Technician\\n    $110 exam"
   },
   {
     "adjacentCategory": [],
     "content": "AWS CP",
     "mainCategory": "engineer",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Amazon Web Services Certified Cloud Practitioner\\n    $100 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN PCA",
     "mainCategory": "engineer",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "EXIN Professional Cloud Administrator\\n    $315 exam"
   },
   {
     "adjacentCategory": [],
     "content": "A+",
     "mainCategory": "engineer",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "CompTIA A+\\n    $253 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIOTSP",
     "mainCategory": "engineer",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "CertNexus Certified Internet of Things Security Practitioner\\n    $250 exam"
   },
   {
     "adjacentCategory": [],
     "content": "TUV COSP",
     "mainCategory": "engineer",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "TUV Certified OT Security Practitioner\\n    $2725 course"
   },
   {
     "adjacentCategory": [],
     "content": "EPDPE",
     "mainCategory": "asset",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "EXIN Privacy and Data Protection Essentials\\n    $145 exam"
   },
   {
     "adjacentCategory": [],
     "content": "M_o_R Fdn",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Axelos M_o_R Framework Foundation\\n    $495 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Fair Fdn",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Fair Institute Analysis Fundamentals\\n    $1499 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "PSM I",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Scrum.org Professional Scrum Master I\\n    $150 exam"
   },
   {
     "adjacentCategory": [],
     "content": "APMG 20000F",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "APMG ISO/IEC 20000 Foundation\\n    $308 exam"
   },
   {
     "adjacentCategory": [],
     "content": "ISMI CSM",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "ISMI Certified Security Manager\\n    $TBD"
   },
   {
     "adjacentCategory": [],
     "content": "BCS FISMP",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "BCS Foundation Certifiate in Information Security Management Principles\\n    $249 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CC",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "ISC2 Certified in Cybersecurity\\n    Free exam"
   },
   {
     "adjacentCategory": [],
     "content": "S-ISF",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "SECO Information Security Foundation\\n                    $460 exam"
   },
   {
     "adjacentCategory": [
@@ -2815,55 +3276,64 @@
     ],
     "content": "GISF",
     "mainCategory": "mgmt",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "GIAC Information Security Fundamentals\\n    $979 exam\\n    SANS course recommended"
   },
   {
     "adjacentCategory": [],
     "content": "TUV CyAware",
     "mainCategory": "test",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "TUV Rheinland Cybersecurity Awareness (GERMAN)\\n    $415 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "MASE",
     "mainCategory": "software",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Mosse Institute Certified Application Security Engineer\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)SP",
     "mainCategory": "ops",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Mile2 Certified Security Principles\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CND",
     "mainCategory": "ops",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "EC Council Certified Network Defender\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "C)VA",
     "mainCategory": "ops",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Mile2 Certified Vulnerability Assessor\\n    $550 exam"
   },
   {
     "adjacentCategory": [],
     "content": "KLCP",
     "mainCategory": "ops",
-    "skillLevel": 25
+    "skillLevel": 25,
+    "tooltiptext": "Kali Linux Certified Professional\\n    $299 exam"
   },
   {
     "adjacentCategory": [],
     "content": "SC-900",
     "mainCategory": "iam",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "Microsoft Certified: Security, Compliance, and Identity Fundamentals\\n    $99 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Cloud Essnt",
     "mainCategory": "engineer",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "CompTIA Cloud Essentials\\n    $138 exam"
   },
   {
     "adjacentCategory": [
@@ -2871,66 +3341,77 @@
     ],
     "content": "ITIL Fdn",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "ITIL Foundation\\n    $383 exam"
   },
   {
     "adjacentCategory": [],
     "content": "Project+",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "CompTIA Project+\\n    $369 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CIISec ICSF",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "CIISec Information and Cybersecurity Fundamentals\\n    $450 exam"
   },
   {
     "adjacentCategory": [],
     "content": "FEXIN",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "EXIN Information Security Foundation\\n    $232 exam"
   },
   {
     "adjacentCategory": [],
     "content": "EXIN 27001F",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "EXIN ISO/IEC 27001 Foundation\\n    $232 exam"
   },
   {
     "adjacentCategory": [],
     "content": "PECB 27005F",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "PECB ISO/IEC 27005 Foundation\\n    $500-749 exam\\n    Course required"
   },
   {
     "adjacentCategory": [],
     "content": "C CS F",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "IBITGQ Certified Cyber Security Foundation\\n    $725 course exam\\n    Branded course required"
   },
   {
     "adjacentCategory": [],
     "content": "CIS F",
     "mainCategory": "mgmt",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "IBITGQ Certified ISO 27001 Information Security Management Specialist Foundation\\n    $853 course exam\\n    Brandeed course required"
   },
   {
     "adjacentCategory": [],
     "content": "S-SPF",
     "mainCategory": "software",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "SECO Secure Programming Foundation\\n                    $460 exam"
   },
   {
     "adjacentCategory": [],
     "content": "CSCU",
     "mainCategory": "ops",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "EC Council Certified Secure Computer User\\n                    $125 exam"
   },
   {
     "adjacentCategory": [],
     "content": "MICS",
     "mainCategory": "ops",
-    "skillLevel": 26
+    "skillLevel": 26,
+    "tooltiptext": "Mosse Institute Introductions to Cyber Security\\n                    Free exam"
   }
 ]

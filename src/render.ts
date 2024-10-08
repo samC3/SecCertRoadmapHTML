@@ -41,7 +41,7 @@ export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfCo
   const certificatesGridElement = document.getElementById("certificates")!;
   certificatesGridElement.innerHTML = "";
 
-  certificatesGridElement.style.gridTemplateColumns = `repeat(${numberOfColumns}, minmax(0, 1fr))`;
+  certificatesGridElement.style.gridTemplateColumns = `1.6rem repeat(${numberOfColumns - 1}, minmax(0, 1fr))`;
 
   certificatesGrid.certificates.forEach((cert) => {
     const certElement = document.createElement("div");
@@ -49,6 +49,7 @@ export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfCo
     certElement.style.gridColumn = `${cert.colStart} / ${cert.colEnd}`;
     certElement.style.gridRow = `${cert.row} / span 1`;
     certElement.innerHTML = `<span>${cert.content}</span>`;
+    certElement.onclick = () => showToast(cert.content, cert.tooltiptext);
     certificatesGridElement.appendChild(certElement);
   });
 };
@@ -92,4 +93,60 @@ const getOrCreateControlGroup = (control: HTMLElement, controlGroup: string): El
   control.appendChild(controlGroupElement);
 
   return controlGroupElement;
+};
+
+const showToast = (title: string, message: string): void => {
+  let overlay = document.querySelector(".overlay");
+
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.classList.add("overlay");
+    document.body.appendChild(overlay);
+  }
+
+  const toast = document.createElement("div");
+  toast.classList.add("toast");
+
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  toast.appendChild(heading);
+
+  const text = document.createElement("p");
+  text.textContent = message;
+  toast.appendChild(text);
+
+  const closeButton = document.createElement("button");
+  closeButton.classList.add("close-btn");
+  closeButton.innerHTML = "&times;"; // '×' symbol
+  toast.appendChild(closeButton);
+
+  document.body.appendChild(toast);
+
+  setTimeout(() => {
+    overlay.classList.add("show");
+    toast.classList.add("show");
+  }, 100);
+
+  closeButton.addEventListener("click", (e) => {
+    e.stopPropagation(); // Prevent bubbling to the body
+    closeToast(toast, overlay);
+  });
+
+  overlay.addEventListener(
+    "click",
+    () => {
+      closeToast(toast, overlay);
+    },
+    { once: true }
+  );
+};
+
+const closeToast = (toast: HTMLDivElement, overlay: Element): void => {
+  toast.classList.remove("show");
+  overlay.classList.remove("show");
+
+  setTimeout(() => {
+    document.body.removeChild(toast);
+    document.body.removeChild(overlay);
+  }, 400);
 };

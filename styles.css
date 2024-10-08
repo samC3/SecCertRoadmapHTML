@@ -34,7 +34,7 @@
 }
 
 .categories-grid {
-  gap: 0.1rem;
+  column-gap: 0.1rem;
   grid-template-rows: 1fr;
   max-height: 85vh;
 }
@@ -45,12 +45,15 @@
 }
 
 .certificates-grid {
-  gap: 0.1rem;
+  column-gap: 0.1rem;
+  row-gap: 0.25rem;
+  grid-auto-rows: 1fr;
 }
 
 .cert {
   color: white;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  border-radius: 0.25rem;
   width: 100%;
   font-size: 7.5px;
   display: flex;
@@ -58,6 +61,23 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--green);
+
+  transition: transform 0.3s ease-in-out; /* Adjust the duration (0.3s) and easing as needed */
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.cert:hover {
+  transform: scale(1.8);
+  -webkit-box-shadow: inset 0px 0px 0px 2px white;
+  -moz-box-shadow: inset 0px 0px 0px 2px white;
+  box-shadow: inset 0px 0px 0px 2px white;
 }
 
 #controls {
@@ -158,4 +178,53 @@ input[type="checkbox"]:checked + .control-label.expert-label {
 
 .ops {
   background-color: var(--blue);
+}
+
+/* Overlay for dimming the background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 999; /* Below the toast, but above other content */
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.overlay.show {
+  opacity: 1; /* Fade in */
+}
+
+/* Toast styling */
+.toast {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  height: 100vh;
+  width: 350px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Above the overlay */
+  transition: right 0.4s ease-in-out;
+}
+
+.toast.show {
+  right: 0; /* Slide in */
+}
+
+.toast .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#content {
+  padding: 20px;
 }

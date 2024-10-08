@@ -19,6 +19,7 @@ export interface Certificate {
   mainCategory: Category;
   adjacentCategory: Category[];
   content: string;
+  tooltiptext: string;
   colStart?: number;
   colEnd?: number;
   row?: number;
