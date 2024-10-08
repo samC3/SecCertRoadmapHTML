@@ -2,7 +2,21 @@
 
 This fork is a proof of concept for converting Paul Jerimy's roadmap into an interactive version. The first version will use vanilla TypeScript without libraries, although this may change.
 
-To enable interactivity the table will be rendered using Javascript, which means the extact positioning of each cert may be different to the original. Although I will endenvour to keep it as close as possible.
+To enable interactivity the table will be rendered using Javascript, which means the exact positioning of each cert may be different to the original. Although I will endeavour to keep it as close as possible.
+
+## POC progress
+
+- [x] Render the certificates from a JSON file
+- [x] Show/Hide certificates based on category and skill level
+- [x] Show certificate information in modal window
+
+![GIF of certificates roadmap showing POC progress](interactive_sec_cert_roadmap_poc_update_1.gif)
+
+### Next steps
+
+- [ ] Review certificate grid builder, bugfix adjacent category on filter, add tests
+- [ ] Include sub categories and breakdown ops section into red and blue
+- [ ] Explore rendering alternatives
 
 # SecCertRoadmapHTML
 Security Certification Roadmap HTML5/CSS3 version
