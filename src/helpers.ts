@@ -13,3 +13,5 @@ export const skillLevelName = (skillLevel: number): SkillLevelName => {
     return "expert";
   }
 };
+
+export const range = (size: number, startAt = 0): number[] => [...Array(size).keys()].map((i) => i + startAt);

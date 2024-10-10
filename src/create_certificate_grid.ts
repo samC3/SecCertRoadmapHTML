@@ -1,3 +1,4 @@
+import { range } from "./helpers.js";
 import { CategoriesGrid, Certificate, CertificateGrid } from "./types";
 
 interface Cursor {
@@ -16,15 +17,7 @@ const createCertificatesGrid = (
   categoriesGrid: CategoriesGrid,
   numberOfColumns: number
 ) => {
-  certificates.sort((a, b) => {
-    if (a.skillLevel === b.skillLevel) {
-      const aSpan = a.adjacentCategory.length + 1;
-      const bSpan = b.adjacentCategory.length + 1;
-      return bSpan - aSpan;
-    }
-
-    return a.skillLevel - b.skillLevel;
-  });
+  certificates = sortBySkillLevelAndAdjacentCategory(certificates);
 
   const initialGrid: CertificateGrid = {
     rowValues: {
@@ -41,9 +34,22 @@ const createCertificatesGrid = (
   return certificates.reduce(rowReduction, initialGrid);
 };
 
+const sortBySkillLevelAndAdjacentCategory = (certificates: Certificate[]): Certificate[] => {
+  return [...certificates].sort((a, b) => {
+    if (a.skillLevel === b.skillLevel) {
+      const aSpan = a.adjacentCategory.length + 1;
+      const bSpan = b.adjacentCategory.length + 1;
+      return bSpan - aSpan;
+    }
+
+    return a.skillLevel - b.skillLevel;
+  });
+};
+
 const rowReduction = (acc: CertificateGrid, cert: Certificate) => {
   const mainCol = acc.categoriesGrid[cert.mainCategory];
-  const adjacentCols = cert.adjacentCategory.filter((col) => col).map((col) => acc.categoriesGrid[col]);
+
+  const adjacentCols = cert.adjacentCategory.map((col) => acc.categoriesGrid[col]).filter((col) => !col.hidden);
 
   let colStart = mainCol.start;
   let colEnd = colStart + mainCol.span;
@@ -79,7 +85,7 @@ const rowReduction = (acc: CertificateGrid, cert: Certificate) => {
     currentCol: validColStart,
     validColStart,
     validColEnd,
-    spansMultipleCategories: cert.adjacentCategory.length > 0,
+    spansMultipleCategories: adjacentCols.length > 0,
     hasAdjacentColBefore: adjacentColBefore,
     hasAdjacentColAfter: adjacentColAfter,
   };
@@ -164,7 +170,5 @@ const appendMutliCategoryCert = (cursor: Cursor, grid: CertificateGrid): Certifi
 
   return appendRowForSkillLevel(cursor, grid);
 };
-
-const range = (size: number, startAt = 0): number[] => [...Array(size).keys()].map((i) => i + startAt);
 
 export default createCertificatesGrid;

@@ -2,7 +2,7 @@ export type Category = "skilllevel" | "network" | "iam" | "engineer" | "asset" |
 export type SkillLevelName = "beginner" | "intermediate" | "expert";
 
 export type CategoriesGrid = {
-  [Cat in Category]: CategoryColumn;
+  [key: string]: CategoryColumn;
 };
 
 export interface CategoryColumn {

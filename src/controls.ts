@@ -1,9 +1,12 @@
+import { createCategoriesGrid, updateCategoriesGrid } from "./create_categories_grid.js";
 import createCertificatesGrid from "./create_certificate_grid.js";
 import { countColumns, skillLevelName } from "./helpers.js";
 import { renderCategoriesGrid, renderCertificates } from "./render.js";
-import { CategoriesGrid, Category, Certificate, SkillLevelName } from "./types";
+import { Category, Certificate, SkillLevelName } from "./types";
 
-export const updateCertificatesOnControlChange = (certificates: Certificate[], categoriesGrid: CategoriesGrid) => {
+export const updateCertificatesOnControlChange = (certificates: Certificate[]) => {
+  let categoriesGrid = createCategoriesGrid(certificates);
+
   const controlsForm = document.getElementById("controls")!;
   const checkboxes = controlsForm.querySelectorAll(".category-checkbox");
   const checkboxValues: { [key: string]: boolean } = {};
@@ -35,6 +38,7 @@ export const updateCertificatesOnControlChange = (certificates: Certificate[], c
     })
     .filter((cert) => skillLevelCheckbox[skillLevelName(cert.skillLevel)]);
 
+  categoriesGrid = updateCategoriesGrid(categoriesGrid, filteredCerts);
   const numberOfColumns = countColumns(categoriesGrid);
   const updatedGrid = createCertificatesGrid(filteredCerts, categoriesGrid, numberOfColumns);
   const enabledSkillLevels = Object.keys(skillLevelCheckbox)

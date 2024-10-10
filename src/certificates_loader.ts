@@ -3,8 +3,6 @@ import { skillLevelName as getSkillLevelName } from "./helpers.js";
 import { Category, Certificate } from "./types";
 
 const load = (): Certificate[] => {
-  console.log(certificates);
-
   return certificates.map((cert) => {
     return {
       ...cert,
