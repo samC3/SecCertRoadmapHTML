@@ -43,6 +43,8 @@ export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfCo
 
   certificatesGridElement.style.gridTemplateColumns = `1.6rem repeat(${numberOfColumns - 1}, minmax(0, 1fr))`;
 
+  let certCells: HTMLDivElement[] = [];
+
   certificatesGrid.certificates.forEach((cert) => {
     const certElement = document.createElement("div");
     certElement.className = `cert ${cert.mainCategory}`;
@@ -51,6 +53,15 @@ export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfCo
     certElement.innerHTML = `<span>${cert.content}</span>`;
     certElement.onclick = () => showToast(cert.content, cert.tooltiptext);
     certificatesGridElement.appendChild(certElement);
+    certCells.push(certElement);
+  });
+
+  const smallestWidth = getSmallestCellSize(certCells);
+  const baseFontSize = smallestWidth / 6;
+  const fontSize = Math.min(Math.max(baseFontSize, 7.5), 22);
+
+  certCells.forEach((cell) => {
+    cell.style.fontSize = `${fontSize}px`;
   });
 };
 
@@ -150,3 +161,17 @@ const closeToast = (toast: HTMLDivElement, overlay: Element): void => {
     document.body.removeChild(overlay);
   }, 400);
 };
+
+function getSmallestCellSize(cells: HTMLDivElement[]): number {
+  let smallestWidth = Infinity;
+
+  cells.forEach((cell) => {
+    const cellWidth = cell.clientWidth;
+
+    if (cellWidth < smallestWidth) {
+      smallestWidth = cellWidth;
+    }
+  });
+
+  return smallestWidth;
+}
