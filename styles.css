@@ -33,7 +33,8 @@
   width: calc(100vw - 1rem);
 }
 
-.categories-grid {
+.categories-grid,
+.sub-categories-grid {
   column-gap: 0.1rem;
   grid-template-rows: 1fr;
   max-height: 85vh;
@@ -176,8 +177,37 @@ input[type="checkbox"]:checked + .control-label.expert-label {
   background-color: var(--skyblue);
 }
 
-.ops {
+.blueops {
   background-color: var(--blue);
+}
+
+.redops {
+  background-color: var(--red);
+}
+
+.sub-category {
+  opacity: 30%;
+  border-radius: 0.5rem;
+}
+
+.cloud_sec_ops-sub-category,
+.nix-sub-category,
+.ics_iot-sub-category {
+  background-color: var(--orange);
+}
+
+.grc-sub-category {
+  background-color: var(--black);
+}
+
+.forensics-sub-category,
+.incident_handling-sub-category {
+  background-color: var(--blue);
+}
+
+.pen_testing-sub-category,
+.exploit-sub-category {
+  background-color: var(--red);
 }
 
 /* Overlay for dimming the background */

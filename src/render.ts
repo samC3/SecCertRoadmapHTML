@@ -1,4 +1,5 @@
-import { CategoriesGrid, Category, CertificateGrid, SkillLevelName } from "./types";
+import { mainCategories, subCategories } from "./constants.js";
+import { CategoriesGrid, Category, CategoryWithSubCategoryKey, CertificateGrid, SkillLevelName } from "./types";
 
 export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLevels: SkillLevelName[]) => {
   const categoriesGridElement = document.getElementById("categories")!;
@@ -6,12 +7,22 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
 
   let gridTemplateColumns = "";
 
-  Object.keys(categories).forEach((cat: string) => {
+  mainCategories.forEach((cat: string) => {
     const category = cat as Category;
+    const categoryData = categories[category] || { span: 0 };
 
-    if (categories[category].hidden) return;
+    if (categoryData.hidden) return;
 
-    let columnWidth = categories[category].span.toString() + "fr";
+    let subWidths = 0;
+
+    if (category as CategoryWithSubCategoryKey) {
+      subWidths =
+        subCategories[category as CategoryWithSubCategoryKey]?.reduce((acc, subCategory) => {
+          return categories[subCategory].span + acc;
+        }, 0) || 0;
+    }
+
+    let columnWidth = (categoryData.span + subWidths).toString() + "fr";
     let className = `category cat-${category}`;
 
     if (category === "skilllevel") {
@@ -26,6 +37,43 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
     categoriesGridElement.appendChild(categoryElement);
   });
 
+  const subCategoriesGridElement = document.getElementById("sub-categories")!;
+  subCategoriesGridElement.innerHTML = "";
+
+  let subCatGridTemplateColumns = "1.6rem ";
+  let lastFilledCol = 2;
+
+  const skillLevelSubCategoryElement = document.createElement("div");
+  skillLevelSubCategoryElement.className = "skilllevel-sub-category-col";
+  subCategoriesGridElement.appendChild(skillLevelSubCategoryElement);
+
+  Object.values(subCategories)
+    .flat()
+    .forEach((subCat) => {
+      if (categories[subCat].hidden) return;
+
+      const subCatWidth = categories[subCat].span;
+
+      if (lastFilledCol < categories[subCat].start) {
+        const blankColsStart = lastFilledCol;
+        const blankColsEnd = categories[subCat].start;
+
+        subCatGridTemplateColumns += `${blankColsEnd - blankColsStart}fr `;
+
+        const blankSubCategoryElement = document.createElement("div");
+        blankSubCategoryElement.className = "blank-sub-category";
+        subCategoriesGridElement.appendChild(blankSubCategoryElement);
+      }
+
+      subCatGridTemplateColumns += `[${subCat}-start] ${categories[subCat].span}fr `;
+
+      const subCategoryElement = document.createElement("div");
+      subCategoryElement.className = `sub-category ${subCat}-sub-category`;
+      subCategoriesGridElement.appendChild(subCategoryElement);
+
+      lastFilledCol = categories[subCat].start + subCatWidth;
+    });
+
   const skillLevels = document.getElementsByClassName("skill-levels")[0];
 
   enabledSkillLevels.forEach((level) => {
@@ -35,6 +83,7 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
   });
 
   categoriesGridElement.style.gridTemplateColumns = gridTemplateColumns;
+  subCategoriesGridElement.style.gridTemplateColumns = subCatGridTemplateColumns;
 };
 
 export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfColumns: number) => {
@@ -47,11 +96,11 @@ export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfCo
 
   certificatesGrid.certificates.forEach((cert) => {
     const certElement = document.createElement("div");
-    certElement.className = `cert ${cert.mainCategory}`;
+    certElement.className = `cert ${cert.categoryStyle}`;
     certElement.style.gridColumn = `${cert.colStart} / ${cert.colEnd}`;
     certElement.style.gridRow = `${cert.row} / span 1`;
     certElement.innerHTML = `<span>${cert.content}</span>`;
-    certElement.onclick = () => showToast(cert.content, cert.tooltiptext);
+    certElement.onclick = () => showToast(cert.content, cert.tooltiptext, cert.href);
     certificatesGridElement.appendChild(certElement);
     certCells.push(certElement);
   });
@@ -106,7 +155,7 @@ const getOrCreateControlGroup = (control: HTMLElement, controlGroup: string): El
   return controlGroupElement;
 };
 
-const showToast = (title: string, message: string): void => {
+const showToast = (title: string, message: string, href: string): void => {
   let overlay = document.querySelector(".overlay");
 
   if (!overlay) {
@@ -125,6 +174,11 @@ const showToast = (title: string, message: string): void => {
   const text = document.createElement("p");
   text.textContent = message;
   toast.appendChild(text);
+
+  const link = document.createElement("a");
+  link.href = href;
+  link.textContent = href;
+  toast.appendChild(link);
 
   const closeButton = document.createElement("button");
   closeButton.classList.add("close-btn");

@@ -7,8 +7,9 @@ const load = (): Certificate[] => {
     return {
       ...cert,
       skillLevelName: getSkillLevelName(cert.skillLevel),
-      mainCategory: cert.mainCategory as Category,
-      adjacentCategory: cert.adjacentCategory.map((cat: string) => cat as Category)
+      mainCategory: (cert.subCategory || cert.mainCategory) as Category,
+      adjacentCategory: cert.adjacentCategory.map((cat: string) => cat as Category),
+      categoryStyle: cert.mainCategory
     };
   });
 };
