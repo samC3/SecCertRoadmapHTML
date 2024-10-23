@@ -1,24 +1,39 @@
+import { subCategories, subCategoryParentCategory, mainCategories } from "./constants.js";
 import { createCategoriesGrid, updateCategoriesGrid } from "./create_categories_grid.js";
 import createCertificatesGrid from "./create_certificate_grid.js";
 import { countColumns, skillLevelName } from "./helpers.js";
 import { renderCategoriesGrid, renderCertificates } from "./render.js";
-import { Category, Certificate, SkillLevelName } from "./types";
+import { Category, Certificate, SkillLevelName, SubCategoryKey } from "./types";
 
 export const updateCertificatesOnControlChange = (certificates: Certificate[]) => {
   let categoriesGrid = createCategoriesGrid(certificates);
 
   const controlsForm = document.getElementById("controls")!;
-  const checkboxes = controlsForm.querySelectorAll(".category-checkbox");
   const checkboxValues: { [key: string]: boolean } = {};
 
   const skillCheckboxes = controlsForm.querySelectorAll(".skill-level-checkbox");
   const skillLevelCheckbox: { [key: string]: boolean } = {};
 
-  checkboxes.forEach((checkbox) => {
-    const inputElement = checkbox as HTMLInputElement;
-    const inputName = inputElement.name as Category;
-    checkboxValues[inputName] = inputElement.checked;
-    categoriesGrid[inputName].hidden = !inputElement.checked;
+  [...mainCategories, ...subCategories].forEach((inputName: Category) => {
+    const inputElement = document.getElementById(inputName) as HTMLInputElement;
+
+    if (subCategories.includes(inputName)) {
+      inputName = inputName as SubCategoryKey;
+      const mainCategory = subCategoryParentCategory[inputName];
+      const mainCategoryHidden = categoriesGrid[mainCategory]?.hidden;
+
+      if (mainCategoryHidden) {
+        checkboxValues[inputName] = false;
+        categoriesGrid[inputName].hidden = true;
+        inputElement.checked = true;
+      } else {
+        checkboxValues[inputName] = inputElement.checked;
+        categoriesGrid[inputName].hidden = !inputElement.checked;
+      }
+    } else {
+      checkboxValues[inputName] = inputElement.checked;
+      categoriesGrid[inputName].hidden = !inputElement.checked;
+    }
   });
 
   skillCheckboxes.forEach((checkbox) => {

@@ -9,7 +9,7 @@ const load = (): Certificate[] => {
       skillLevelName: getSkillLevelName(cert.skillLevel),
       mainCategory: (cert.subCategory || cert.mainCategory) as Category,
       adjacentCategory: cert.adjacentCategory.map((cat: string) => cat as Category),
-      categoryStyle: cert.mainCategory
+      parentCategory: cert.subCategory ? cert.mainCategory as Category : undefined
     };
   });
 };

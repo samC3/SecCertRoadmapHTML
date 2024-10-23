@@ -1,40 +1,73 @@
-import { Category, SubCategoryMap } from "./types";
+import { Category, SubCategoryMap, SubCategoryParentCategoryMap } from "./types";
+
+export const SKILL_LEVEL = "skilllevel";
+export const NETWORK = "network";
+export const IAM = "iam";
+export const CLOUD_SEC_OPS = "cloud_sec_ops";
+export const NIX = "nix";
+export const ICS_IOT = "ics_iot";
+export const ENGINEER = "engineer";
+export const ASSET = "asset";
+export const MGMT = "mgmt";
+export const GRC = "grc";
+export const TEST = "test";
+export const SOFTWARE = "software";
+export const BLUEOPS = "blueops";
+export const FORENSICS = "forensics";
+export const INCIDENT_HANDLING = "incident_handling";
+export const REDOPS = "redops";
+export const PEN_TESTING = "pen_testing";
+export const EXPLOIT = "exploit";
 
 export const orderedCategories: Category[] = [
-  "network",
-  "iam",
-  "cloud_sec_ops",
-  "nix",
-  "ics_iot",
-  "engineer",
-  "asset",
-  "mgmt",
-  "grc",
-  "test",
-  "software",
-  "blueops",
-  "forensics",
-  "incident_handling",
-  "pen_testing",
-  "exploit",
+  NETWORK,
+  IAM,
+  CLOUD_SEC_OPS,
+  NIX,
+  ICS_IOT,
+  ENGINEER,
+  ASSET,
+  MGMT,
+  GRC,
+  TEST,
+  SOFTWARE,
+  BLUEOPS,
+  FORENSICS,
+  INCIDENT_HANDLING,
+  REDOPS,
+  PEN_TESTING,
+  EXPLOIT,
 ];
 
-export const mainCategories: Category[] = [
-  "skilllevel",
-  "network",
-  "iam",
-  "engineer",
-  "asset",
-  "mgmt",
-  "test",
-  "software",
-  "blueops",
-  "redops",
+export const mainCategories: Category[] = [NETWORK, IAM, ENGINEER, ASSET, MGMT, TEST, SOFTWARE, BLUEOPS, REDOPS];
+
+export const mainCategoryWithSubCategory: Category[] = [ENGINEER, MGMT, BLUEOPS, REDOPS];
+
+export const subCategories: Category[] = [
+  CLOUD_SEC_OPS,
+  NIX,
+  ICS_IOT,
+  GRC,
+  FORENSICS,
+  INCIDENT_HANDLING,
+  PEN_TESTING,
+  EXPLOIT,
 ];
 
-export const subCategories: SubCategoryMap = {
-  engineer: ["cloud_sec_ops", "nix", "ics_iot"],
-  mgmt: ["grc"],
-  blueops: ["forensics", "incident_handling"],
-  redops: ["pen_testing", "exploit"],
+export const subCategoryMapping: SubCategoryMap = {
+  [ENGINEER]: [CLOUD_SEC_OPS, NIX, ICS_IOT],
+  [MGMT]: [GRC],
+  [BLUEOPS]: [FORENSICS, INCIDENT_HANDLING],
+  [REDOPS]: [PEN_TESTING, EXPLOIT],
+};
+
+export const subCategoryParentCategory: SubCategoryParentCategoryMap = {
+  [CLOUD_SEC_OPS]: ENGINEER,
+  [NIX]: ENGINEER,
+  [ICS_IOT]: ENGINEER,
+  [GRC]: MGMT,
+  [FORENSICS]: BLUEOPS,
+  [INCIDENT_HANDLING]: BLUEOPS,
+  [PEN_TESTING]: REDOPS,
+  [EXPLOIT]: REDOPS,
 };

@@ -1,4 +1,4 @@
-import { mainCategories, subCategories } from "./constants.js";
+import { mainCategories, subCategoryMapping, mainCategoryWithSubCategory, SKILL_LEVEL } from "./constants.js";
 import { CategoriesGrid, Category, CategoryWithSubCategoryKey, CertificateGrid, SkillLevelName } from "./types";
 
 export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLevels: SkillLevelName[]) => {
@@ -7,7 +7,7 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
 
   let gridTemplateColumns = "";
 
-  mainCategories.forEach((cat: string) => {
+  [SKILL_LEVEL, ...mainCategories].forEach((cat: string) => {
     const category = cat as Category;
     const categoryData = categories[category] || { span: 0 };
 
@@ -15,9 +15,9 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
 
     let subWidths = 0;
 
-    if (category as CategoryWithSubCategoryKey) {
+    if (mainCategoryWithSubCategory.includes(category)) {
       subWidths =
-        subCategories[category as CategoryWithSubCategoryKey]?.reduce((acc, subCategory) => {
+        subCategoryMapping[category as CategoryWithSubCategoryKey]?.reduce((acc, subCategory) => {
           return categories[subCategory].span + acc;
         }, 0) || 0;
     }
@@ -25,7 +25,7 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
     let columnWidth = (categoryData.span + subWidths).toString() + "fr";
     let className = `category cat-${category}`;
 
-    if (category === "skilllevel") {
+    if (category === SKILL_LEVEL) {
       columnWidth = "1.5rem";
       className = "skill-levels";
     }
@@ -37,17 +37,17 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
     categoriesGridElement.appendChild(categoryElement);
   });
 
-  const subCategoriesGridElement = document.getElementById("sub-categories")!;
-  subCategoriesGridElement.innerHTML = "";
+  const subCategoryMappingGridElement = document.getElementById("sub-categories")!;
+  subCategoryMappingGridElement.innerHTML = "";
 
   let subCatGridTemplateColumns = "1.6rem ";
   let lastFilledCol = 2;
 
   const skillLevelSubCategoryElement = document.createElement("div");
   skillLevelSubCategoryElement.className = "skilllevel-sub-category-col";
-  subCategoriesGridElement.appendChild(skillLevelSubCategoryElement);
+  subCategoryMappingGridElement.appendChild(skillLevelSubCategoryElement);
 
-  Object.values(subCategories)
+  Object.values(subCategoryMapping)
     .flat()
     .forEach((subCat) => {
       if (categories[subCat].hidden) return;
@@ -62,14 +62,14 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
 
         const blankSubCategoryElement = document.createElement("div");
         blankSubCategoryElement.className = "blank-sub-category";
-        subCategoriesGridElement.appendChild(blankSubCategoryElement);
+        subCategoryMappingGridElement.appendChild(blankSubCategoryElement);
       }
 
       subCatGridTemplateColumns += `[${subCat}-start] ${categories[subCat].span}fr `;
 
       const subCategoryElement = document.createElement("div");
       subCategoryElement.className = `sub-category ${subCat}-sub-category`;
-      subCategoriesGridElement.appendChild(subCategoryElement);
+      subCategoryMappingGridElement.appendChild(subCategoryElement);
 
       lastFilledCol = categories[subCat].start + subCatWidth;
     });
@@ -83,7 +83,7 @@ export const renderCategoriesGrid = (categories: CategoriesGrid, enabledSkillLev
   });
 
   categoriesGridElement.style.gridTemplateColumns = gridTemplateColumns;
-  subCategoriesGridElement.style.gridTemplateColumns = subCatGridTemplateColumns;
+  subCategoryMappingGridElement.style.gridTemplateColumns = subCatGridTemplateColumns;
 };
 
 export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfColumns: number) => {
@@ -96,7 +96,7 @@ export const renderCertificates = (certificatesGrid: CertificateGrid, numberOfCo
 
   certificatesGrid.certificates.forEach((cert) => {
     const certElement = document.createElement("div");
-    certElement.className = `cert ${cert.categoryStyle}`;
+    certElement.className = `cert ${cert.parentCategory || cert.mainCategory}`;
     certElement.style.gridColumn = `${cert.colStart} / ${cert.colEnd}`;
     certElement.style.gridRow = `${cert.row} / span 1`;
     certElement.innerHTML = `<span>${cert.content}</span>`;

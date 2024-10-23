@@ -19,9 +19,17 @@ export type Category =
   | "exploit";
 
 export type CategoryWithSubCategoryKey = Extract<Category, "engineer" | "mgmt" | "blueops" | "redops">;
+export type SubCategoryKey = Extract<
+  Category,
+  "cloud_sec_ops" | "nix" | "ics_iot" | "grc" | "forensics" | "incident_handling" | "pen_testing" | "exploit"
+>;
 
 export type SubCategoryMap = {
   [key in CategoryWithSubCategoryKey]: Category[];
+};
+
+export type SubCategoryParentCategoryMap = {
+  [key in SubCategoryKey]: Category;
 };
 
 export type SkillLevelName = "beginner" | "intermediate" | "expert";
@@ -41,7 +49,7 @@ export interface CategoryColumn {
 export interface Certificate {
   skillLevel: number;
   skillLevelName?: SkillLevelName;
-  categoryStyle: string;
+  parentCategory?: Category;
   mainCategory: Category;
   adjacentCategory: Category[];
   content: string;
