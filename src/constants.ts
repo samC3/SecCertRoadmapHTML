@@ -9,6 +9,8 @@ export const ICS_IOT = "ics_iot";
 export const ENGINEER = "engineer";
 export const ASSET = "asset";
 export const MGMT = "mgmt";
+export const MGMT_LEFT = "mgmt_left";
+export const MGMT_RIGHT = "mgmt_right";
 export const GRC = "grc";
 export const TEST = "test";
 export const SOFTWARE = "software";
@@ -28,7 +30,9 @@ export const orderedCategories: Category[] = [
   ENGINEER,
   ASSET,
   MGMT,
+  MGMT_LEFT,
   GRC,
+  MGMT_RIGHT,
   TEST,
   SOFTWARE,
   BLUEOPS,
@@ -47,7 +51,9 @@ export const subCategories: Category[] = [
   CLOUD_SEC_OPS,
   NIX,
   ICS_IOT,
+  MGMT_LEFT,
   GRC,
+  MGMT_RIGHT,
   FORENSICS,
   INCIDENT_HANDLING,
   PEN_TESTING,
@@ -56,7 +62,7 @@ export const subCategories: Category[] = [
 
 export const subCategoryMapping: SubCategoryMap = {
   [ENGINEER]: [CLOUD_SEC_OPS, NIX, ICS_IOT],
-  [MGMT]: [GRC],
+  [MGMT]: [MGMT_LEFT, GRC, MGMT_RIGHT],
   [BLUEOPS]: [FORENSICS, INCIDENT_HANDLING],
   [REDOPS]: [PEN_TESTING, EXPLOIT],
 };
@@ -65,7 +71,9 @@ export const subCategoryParentCategory: SubCategoryParentCategoryMap = {
   [CLOUD_SEC_OPS]: ENGINEER,
   [NIX]: ENGINEER,
   [ICS_IOT]: ENGINEER,
+  [MGMT_LEFT]: MGMT,
   [GRC]: MGMT,
+  [MGMT_RIGHT]: MGMT,
   [FORENSICS]: BLUEOPS,
   [INCIDENT_HANDLING]: BLUEOPS,
   [PEN_TESTING]: REDOPS,

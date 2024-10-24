@@ -25,7 +25,7 @@
     "href": "https://www.crest-approved.org/examination/technical-security-architecture/index.html",
     "mainCategory": "engineer",
     "skillLevel": 2,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "CREST Registered Technical Security Architect\\n    $2,300 two exams\\n    In person in the UK"
   },
   {
@@ -36,7 +36,7 @@
     "href": "https://www.axelos.com/certifications/itil-certifications/itil-master",
     "mainCategory": "mgmt",
     "skillLevel": 2,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "ITIL Master\\n    $4,000 Interview"
   },
   {
@@ -83,7 +83,7 @@
     "href": "https://sabsa.org/certification/",
     "mainCategory": "engineer",
     "skillLevel": 3,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "SABSA Chartered Security Architect - Master Certificate\\n    $3,750 exam & thesis\\n    Branded course required"
   },
   {
@@ -96,7 +96,10 @@
     "tooltiptext": "GIAC Security Expert\\n    ~$7475 for 10 exams"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "software",
+      "test"
+    ],
     "content": "GREM",
     "href": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
     "mainCategory": "blueops",
@@ -114,7 +117,9 @@
     "tooltiptext": "Offensive Security Web Expert\\n    ~$1649 lab"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "exploit"
+    ],
     "content": "OSEP",
     "href": "https://www.offensive-security.com/pen300-osep/",
     "mainCategory": "redops",
@@ -132,14 +137,12 @@
     "tooltiptext": "Offensive Security Exploit Developer\\n    $1,499 lab"
   },
   {
-    "adjacentCategory": [
-      "asset"
-    ],
+    "adjacentCategory": [],
     "content": "PgMP",
     "href": "https://www.pmi.org/certifications/types/program-management-pgmp",
     "mainCategory": "mgmt",
     "skillLevel": 4,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "PMI Program Management Professional\\n    $1,000 exam"
   },
   {
@@ -157,7 +160,7 @@
     "href": "https://www.ncsc.gov.uk/information/about-certified-professional-scheme",
     "mainCategory": "mgmt",
     "skillLevel": 4,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "NCSC Certified Cybersecurity Professional - Lead Practitioner\\n    $1388 interview"
   },
   {
@@ -170,7 +173,9 @@
     "tooltiptext": "IACIS Certified Forensic Computer Examiner\\n    $750 4 peer reviewed exams"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "exploit"
+    ],
     "content": "GXPN",
     "href": "https://www.giac.org/certification/gxpn",
     "mainCategory": "redops",
@@ -189,7 +194,7 @@
   },
   {
     "adjacentCategory": [
-      "mgmt"
+      "mgmt_left"
     ],
     "content": "ASIS CPP",
     "href": "https://www.asisonline.org/certification/certified-protection-professional-cpp/",
@@ -204,7 +209,7 @@
     "href": "https://www.zachman.com/certification/what-we-certify/enterprise-architect",
     "mainCategory": "mgmt",
     "skillLevel": 5,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Zachman Enterprise Architect Professional (Level 3)\\n    $2,999 exam & case study\\n    Level 1 & 2 cert not req'd"
   },
   {
@@ -213,7 +218,7 @@
     "href": "https://www.pmi.org/certifications/project-management-pmp",
     "mainCategory": "mgmt",
     "skillLevel": 5,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "PMI Project Management Professional\\n    $555 exam"
   },
   {
@@ -240,7 +245,7 @@
     "href": "https://www.ncsc.gov.uk/information/about-certified-professional-scheme",
     "mainCategory": "mgmt",
     "skillLevel": 5,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "NCSC Certified Cybersecurity Professional - Senior Practitioner\\n    $907 interview"
   },
   {
@@ -253,7 +258,9 @@
     "tooltiptext": "CSIAC CyberSecurity Forensic Analyst\\n    $750 exam & lab"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "GIME",
     "href": "https://www.giac.org/certifications/ios-macos-examiner-gime/",
     "mainCategory": "blueops",
@@ -262,7 +269,9 @@
     "tooltiptext": "GIAC iOS and MacOS Examiner\\n    $979 exam\\n    SANS course recommended"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "exploit"
+    ],
     "content": "GAWN",
     "href": "https://www.giac.org/certification/gawn",
     "mainCategory": "redops",
@@ -298,7 +307,9 @@
     "tooltiptext": "IACIS Certified Advanced Windows Forensic Examiner\\n    $750 written exam & lab"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "GCFA",
     "href": "https://www.giac.org/certification/gcfa",
     "mainCategory": "blueops",
@@ -316,7 +327,9 @@
     "tooltiptext": "GIAC Cyber Threat Intelligence\\n    $979 exam\\n    SANS course recommended"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "exploit"
+    ],
     "content": "CREST CSAM",
     "href": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager",
     "mainCategory": "redops",
@@ -366,7 +379,7 @@
     "href": "https://www.giac.org/certification/defending-advanced-threats-gdat",
     "mainCategory": "engineer",
     "skillLevel": 7,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "GIAC Defending Advanced Threats\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -375,7 +388,7 @@
     "href": "https://docs.microsoft.com/en-us/certifications/exams/sc-100",
     "mainCategory": "engineer",
     "skillLevel": 7,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "Microsoft Cybersecurity Architect\\n    $165 exam"
   },
   {
@@ -386,7 +399,7 @@
     "href": "https://www.opengroup.org/certifications/togaf",
     "mainCategory": "mgmt",
     "skillLevel": 7,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "OpenGroup TOGAF Certified\\n    $360 exam"
   },
   {
@@ -413,7 +426,7 @@
     "href": "https://www.giac.org/certification/gstrt",
     "mainCategory": "mgmt",
     "skillLevel": 7,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "GIAC Strategic Planning, Policy and Leadership\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -422,7 +435,7 @@
     "href": "https://www.ncsc.gov.uk/information/about-certified-professional-scheme",
     "mainCategory": "mgmt",
     "skillLevel": 7,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "NCSC Certified Cybersecurity Professional - Practitioner\\n    $225 interview"
   },
   {
@@ -512,7 +525,7 @@
     "href": "https://sabsa.org/certification/",
     "mainCategory": "engineer",
     "skillLevel": 8,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "SABSA Chartered Security Architect - Practitioner Certificate\\n    $3,750 written exam\\n    Branded course required"
   },
   {
@@ -521,7 +534,7 @@
     "href": "https://www.scrum.org/assessments/professional-scrum-master-iii-certification",
     "mainCategory": "mgmt",
     "skillLevel": 8,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Scrum.org Professional Scrum Master III\\n    $500 exam\\n    Branded course required"
   },
   {
@@ -539,7 +552,7 @@
     "href": "https://www.giac.org/certification/gisp",
     "mainCategory": "mgmt",
     "skillLevel": 8,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "GIAC Information Security Professional\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -561,7 +574,9 @@
     "tooltiptext": "GIAC Cloud Forensics Responder\\n    $979 exam\\n    SANS course recommended"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "BTL2",
     "href": "https://securityblue.team/btl2/",
     "mainCategory": "blueops",
@@ -620,7 +635,7 @@
     "href": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "mainCategory": "engineer",
     "skillLevel": 9,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "ISA Cybersecurity Expert\\n    $2,700 course + exam\\n    Course required"
   },
   {
@@ -629,7 +644,7 @@
     "href": "https://www.giac.org/certification/defensible-security-architecture-gdsa",
     "mainCategory": "engineer",
     "skillLevel": 9,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "GIAC Defensible Security Architecture\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -638,7 +653,7 @@
     "href": "https://www.axelos.com/certifications/itil-certifications/itil-strategic-leader-itil-4",
     "mainCategory": "mgmt",
     "skillLevel": 9,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "ITIL Strategic Leader\\n    $4,800 two course exams\\n    2 branded courses required"
   },
   {
@@ -647,7 +662,7 @@
     "href": "https://www.zachman.com/certification/what-we-certify/enterprise-architect",
     "mainCategory": "mgmt",
     "skillLevel": 9,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Zachman Enterprise Architect Practitioner (Level 2)\\n    $2,999 exam & case study\\n    Level 1 cert not req'd"
   },
   {
@@ -656,7 +671,7 @@
     "href": "https://www.giac.org/certification/gslc",
     "mainCategory": "mgmt",
     "skillLevel": 9,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GIAC Security Leadership Certification\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -669,7 +684,9 @@
     "tooltiptext": "SECO Certified Information Security Officer\\n    Resume review"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "GCFE",
     "href": "https://www.giac.org/certification/gcfe",
     "mainCategory": "blueops",
@@ -768,7 +785,9 @@
     "tooltiptext": "GIAC Advanced Smartphone Forensics\\n    $979 exam\\n    SANS course recommended"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "eCTHP",
     "href": "https://security.ine.com/certifications/ecthp-certification/",
     "mainCategory": "blueops",
@@ -845,7 +864,7 @@
     "href": "https://www.exidacace.com/Apply/CACE",
     "mainCategory": "engineer",
     "skillLevel": 11,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "Excida IEC 62443 Certified Automation Cybersecurity Expert\\n    $700 exam"
   },
   {
@@ -856,7 +875,7 @@
     "href": "https://www.axelos.com/certifications/itil-certifications/itil-managing-professional-itil-4",
     "mainCategory": "mgmt",
     "skillLevel": 11,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "ITIL Managing Professional\\n    $9,600 4 course exams\\n    4 branded courses requires"
   },
   {
@@ -865,7 +884,7 @@
     "href": "https://www.scrum.org/scaled-professional-scrum-certification",
     "mainCategory": "mgmt",
     "skillLevel": 11,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Scrum Scaled Professional Scrum\\n    $250 exam"
   },
   {
@@ -874,7 +893,7 @@
     "href": "https://www.giac.org/certification/law-data-security-investigations-gleg",
     "mainCategory": "mgmt",
     "skillLevel": 11,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GIAC Law of Data Security & Investigations\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -952,7 +971,9 @@
     "tooltiptext": "Infosec Institute Certified Computer Forensics Examiner\\n    $4,599 exam\\n    Course required"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "GCED",
     "href": "https://www.giac.org/certification/certified-enterprise-defender-gced",
     "mainCategory": "blueops",
@@ -979,7 +1000,9 @@
     "tooltiptext": "CREST Certified Threat Intelligence Manager\\n    $2,480 3 exams"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "exploit"
+    ],
     "content": "OSCP",
     "href": "https://www.offensive-security.com/pwk-oscp/",
     "mainCategory": "redops",
@@ -1013,7 +1036,7 @@
     "href": "https://docs.microsoft.com/en-us/learn/certifications/m365-enterprise-administrator",
     "mainCategory": "engineer",
     "skillLevel": 12,
-    "subCategory": null,
+    "subCategory": "cloud_sec_ops",
     "tooltiptext": "Microsoft 365 Certified Enterprise Administrator Expert\\n    $165 exam"
   },
   {
@@ -1049,7 +1072,7 @@
     "href": "https://www.giac.org/certification/response-industrial-defense-grid",
     "mainCategory": "engineer",
     "skillLevel": 12,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "GIAC Response and Industrial Defense\\n    $979 exam\\n    SANS course encouraged"
   },
   {
@@ -1058,7 +1081,7 @@
     "href": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",
     "mainCategory": "engineer",
     "skillLevel": 12,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Implementer\\n    $2,008 course exam\\n    Branded course required"
   },
   {
@@ -1072,7 +1095,7 @@
   },
   {
     "adjacentCategory": [
-      "mgmt"
+      "mgmt_left"
     ],
     "content": "CDPSE",
     "href": "https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer",
@@ -1087,7 +1110,7 @@
     "href": "https://gaqm.org/certifications/scrum_agile/csm",
     "mainCategory": "mgmt",
     "skillLevel": 12,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Certified Scrum Master\\n    $128 exam"
   },
   {
@@ -1096,7 +1119,7 @@
     "href": "https://gaqm.org/certifications/scrum_agile/casm",
     "mainCategory": "mgmt",
     "skillLevel": 12,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Certified Agile Scrum Master\\n    $128 exam"
   },
   {
@@ -1114,11 +1137,13 @@
     "href": "https://www.seco-institute.org/certifications/information-security-certification-track/",
     "mainCategory": "mgmt",
     "skillLevel": 12,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "SECO Information Security Practitioner\\n    $550"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "CISA",
     "href": "https://www.isaca.org/credentialing/cisa",
     "mainCategory": "test",
@@ -1181,7 +1206,9 @@
     "tooltiptext": "GIAC Experienced Forensics Analyst\\n    $1299 exam\\n    SANS course recommended"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "pen_testing"
+    ],
     "content": "GCIH",
     "href": "https://www.giac.org/certification/gcih",
     "mainCategory": "blueops",
@@ -1312,18 +1339,19 @@
     "href": "https://training.fortinet.com/local/staticpage/view.php?page=fcss_ot_security",
     "mainCategory": "engineer",
     "skillLevel": 13,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "Fortinet Certified Solution Specialist - OT Security\\n    $400 exam"
   },
   {
     "adjacentCategory": [
-      "asset"
+      "asset",
+      "mgmt"
     ],
     "content": "CSSA",
     "href": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4JIAS",
     "mainCategory": "engineer",
     "skillLevel": 13,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "Infosec Institute Certified SCADA Security Architect\\n    $4,599 exam\\n    Course required"
   },
   {
@@ -1332,7 +1360,7 @@
     "href": "https://www.scrum.org/professional-scrum-developer-certification",
     "mainCategory": "mgmt",
     "skillLevel": 13,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Scrum Professional Scrum Developer\\n    $200 exam"
   },
   {
@@ -1341,7 +1369,7 @@
     "href": "https://www.giac.org/certification/gcpm",
     "mainCategory": "mgmt",
     "skillLevel": 13,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GIAC Certified Project Manager\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -1374,6 +1402,7 @@
   {
     "adjacentCategory": [
       "test",
+      "mgmt_right",
       "blueops"
     ],
     "content": "CSSLP",
@@ -1542,7 +1571,7 @@
     "href": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "mainCategory": "engineer",
     "skillLevel": 14,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "ISA Certified Design Specialist\\n    $2,700 course + exam"
   },
   {
@@ -1551,7 +1580,7 @@
     "href": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Technical-Architect-Exam-Guide",
     "mainCategory": "engineer",
     "skillLevel": 14,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "Salesforce Certified Technical Architect\\n    $6000\\n    Must be SF SA Certified"
   },
   {
@@ -1569,7 +1598,7 @@
     "href": "https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner",
     "mainCategory": "mgmt",
     "skillLevel": 14,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Axelos M_o_R Practitioner Risk Management\\n    $560 exam"
   },
   {
@@ -1578,7 +1607,7 @@
     "href": "https://gaqm.org/certifications/project_management/cpd",
     "mainCategory": "mgmt",
     "skillLevel": 14,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Certified Project Director\\n    $210 exam"
   },
   {
@@ -1587,7 +1616,7 @@
     "href": "https://www.pmi.org/certifications/types/agile-acp",
     "mainCategory": "mgmt",
     "skillLevel": 14,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "PMI Agile Certified Practitioner\\n    $495 exam"
   },
   {
@@ -1632,11 +1661,13 @@
     "href": "https://drii.org/certification/ccrp",
     "mainCategory": "mgmt",
     "skillLevel": 14,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "DRI Certified Cyber Resilience Professional\\n    $400 Exam"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "GCIA",
     "href": "https://www.giac.org/certification/certified-intrusion-analyst-gcia",
     "mainCategory": "test",
@@ -1769,7 +1800,7 @@
     "href": "https://aws.amazon.com/certification/certified-security-specialty/",
     "mainCategory": "engineer",
     "skillLevel": 15,
-    "subCategory": null,
+    "subCategory": "cloud_sec_ops",
     "tooltiptext": "Amazon Web Services Certified Security - Specialty\\n    $150 exam"
   },
   {
@@ -1805,7 +1836,7 @@
     "href": "https://www.tuv.com/landingpage/en/lp-certified-operational-technology-cybersecurity-professional-program/",
     "mainCategory": "engineer",
     "skillLevel": 15,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "TUV Rheinland Certified Operational Technology Cybersecurity Professional (GERMAN)\\n                        $415 exam"
   },
   {
@@ -1814,7 +1845,7 @@
     "href": "https://sabsa.org/certification/",
     "mainCategory": "engineer",
     "skillLevel": 15,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "SABSA Chartered Security Architect - Foundation Certificate\\n    $3,750 exam\\n    Branded course required"
   },
   {
@@ -1841,7 +1872,7 @@
     "href": "https://www.scrum.org/professional-agile-leadership-certification",
     "mainCategory": "mgmt",
     "skillLevel": 15,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Scrum  Professional Agile Leadership\\n    $200 exam"
   },
   {
@@ -1850,7 +1881,7 @@
     "href": "https://www.pmi.org/certifications/types/certified-associate-capm",
     "mainCategory": "mgmt",
     "skillLevel": 15,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "PMI Certified Associate in Project Management\\n    $300 exam"
   },
   {
@@ -1859,16 +1890,18 @@
     "href": "https://www.scrum.org/assessments/professional-scrum-master-ii-certification",
     "mainCategory": "mgmt",
     "skillLevel": 15,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Scrum.org Professional Scrum Master II\\n    $250 exam"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "APMG 20000P",
     "href": "https://apmg-international.com/product/iso-iec-20000",
-    "mainCategory": "mgmt",
+    "mainCategory": "test",
     "skillLevel": 15,
-    "subCategory": "grc",
+    "subCategory": null,
     "tooltiptext": "APMG ISO/IEC 20000 Practitioner\\n    $308 Exam\\n    Foundation or ITIL req'd"
   },
   {
@@ -1899,7 +1932,9 @@
     "tooltiptext": "PECB ISO/IEC 27001 Lead Implementer\\n    $930 exam\\n    Course required"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "IS20",
     "href": "https://www.mile2.com/is20_outline/",
     "mainCategory": "test",
@@ -1962,7 +1997,9 @@
     "tooltiptext": "GIAC Battlefield Forensics and Acquisition\\n    $979 exam\\n    SANS course recommended"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "BTL1",
     "href": "https://www.securityblue.team/why-btl1/",
     "mainCategory": "blueops",
@@ -2185,7 +2222,7 @@
     "href": "https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer?wt.mc_id=learningredirect_certs-web-wwl",
     "mainCategory": "engineer",
     "skillLevel": 17,
-    "subCategory": null,
+    "subCategory": "cloud_sec_ops",
     "tooltiptext": "Microsoft Azure Security Engineer Associate\\n    $165 exam"
   },
   {
@@ -2230,7 +2267,7 @@
     "href": "https://www.giac.org/certification/critical-infrastructure-protection-gcip",
     "mainCategory": "engineer",
     "skillLevel": 17,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "GIAC Critical Infrastructure Protection\\n    $979 exam\\n    SANS course encouraged"
   },
   {
@@ -2244,7 +2281,7 @@
   },
   {
     "adjacentCategory": [
-      "mgmt"
+      "mgmt_left"
     ],
     "content": "CDP",
     "href": "https://www.identitymanagementinstitute.org/cdp/",
@@ -2259,7 +2296,7 @@
     "href": "https://ecfirst.biz/index.php?route=product/product&path=59_83&product_id=281",
     "mainCategory": "mgmt",
     "skillLevel": 17,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "EC First Certified CCMC Professional\\n    $2,995 exam\\n    Course required"
   },
   {
@@ -2304,11 +2341,13 @@
     "href": "https://www.mile2.com/chissp_outline/",
     "mainCategory": "mgmt",
     "skillLevel": 17,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "Mile2 Certified Healthcare Information Systems Security Practitioner\\n    $550 exam"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "APMG 20000A",
     "href": "https://apmg-international.com/product/iso-iec-20000",
     "mainCategory": "test",
@@ -2502,7 +2541,7 @@
     "href": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "mainCategory": "engineer",
     "skillLevel": 18,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "ISA Certified Risk Assesment Specialist\\n    $2,700 course + exam\\n    Course required"
   },
   {
@@ -2511,7 +2550,7 @@
     "href": "https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html",
     "mainCategory": "engineer",
     "skillLevel": 18,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "Splunk Enterprise Security Certified Administrator\\n    $130 exam\\n    Branded course recommended"
   },
   {
@@ -2522,7 +2561,7 @@
     "href": "https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-practitioner-certificate-in-information-assurance-architecture/",
     "mainCategory": "mgmt",
     "skillLevel": 18,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "BCS Practitioner Certificate in Information Assurance Architecture\\n    $290 exam"
   },
   {
@@ -2531,7 +2570,7 @@
     "href": "https://ecfirst.biz/index.php?route=product/product&path=59_61&product_id=77",
     "mainCategory": "mgmt",
     "skillLevel": 18,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "EC First Certified Cyber Security Architect\\n    $695 exam"
   },
   {
@@ -2540,7 +2579,7 @@
     "href": "https://gaqm.org/certifications/project_management/ppm",
     "mainCategory": "mgmt",
     "skillLevel": 18,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Professional in Project Management\\n    $210 exam"
   },
   {
@@ -2585,11 +2624,13 @@
     "href": "https://www.softwarecertifications.org/csba/",
     "mainCategory": "mgmt",
     "skillLevel": 18,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "QAI Certified Software Business Analyst\\n    $350 exam + written essay"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "DCBCLA",
     "href": "https://drii.org/certification/cbcla",
     "mainCategory": "test",
@@ -2661,7 +2702,9 @@
     "tooltiptext": "Mile2 Certified Threat Intelligence Analyst\\n    $550 exam"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "pen_testing"
+    ],
     "content": "OSDA",
     "href": "https://www.offensive-security.com/soc200-osda/",
     "mainCategory": "blueops",
@@ -2783,12 +2826,12 @@
     "href": "https://trailhead.salesforce.com/credentials/systemarchitect",
     "mainCategory": "engineer",
     "skillLevel": 19,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "SalesForce System Architect\\n    $400 hands-on lab"
   },
   {
     "adjacentCategory": [
-      "mgmt"
+      "mgmt_left"
     ],
     "content": "ASIS APP",
     "href": "https://www.asisonline.org/certification/associate-protection-professional-app/",
@@ -2803,7 +2846,7 @@
     "href": "https://www.eccouncil.org/programs/certified-network-defense-architect-cnda/",
     "mainCategory": "mgmt",
     "skillLevel": 19,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "EC Council Certified Network Defense Architect\\n    $200 application\\n    Requires CEH cert"
   },
   {
@@ -2812,7 +2855,7 @@
     "href": "https://drii.org/certification/acrp",
     "mainCategory": "mgmt",
     "skillLevel": 19,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "DRI Associate Cyber Resilience Professional\\n    $200 exam\\n    Course req"
   },
   {
@@ -2857,7 +2900,7 @@
     "href": "https://www.thehlayer.com/about-exam/",
     "mainCategory": "mgmt",
     "skillLevel": 19,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "The H Layer Security Awareness and Culture Professional\\n    $369 Exam"
   },
   {
@@ -2866,7 +2909,7 @@
     "href": "https://gaqm.org/certifications/information_systems_security/cisp",
     "mainCategory": "mgmt",
     "skillLevel": 19,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "GAQM Certified Information Security Professional\\n    $170 exam"
   },
   {
@@ -3073,7 +3116,7 @@
     "href": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "mainCategory": "engineer",
     "skillLevel": 20,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "ISA Certified Automation Specialist\\n    $467 exam"
   },
   {
@@ -3082,7 +3125,7 @@
     "href": "https://limessecurity.com/en/academy/ics-211/",
     "mainCategory": "engineer",
     "skillLevel": 20,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "TUV Certified OT Security Manager\\n    $3,070 Course"
   },
   {
@@ -3091,7 +3134,7 @@
     "href": "https://www.zachman.com/certification/what-we-certify/enterprise-architect",
     "mainCategory": "mgmt",
     "skillLevel": 20,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Zachman Enterprise Architect Associate (Level 1)\\n    $2,999 course exam\\n    Branded course required"
   },
   {
@@ -3100,7 +3143,7 @@
     "href": "https://gaqm.org/certifications/scrum_agile/cad",
     "mainCategory": "mgmt",
     "skillLevel": 20,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Certified Agile Developer\\n    $128 exam"
   },
   {
@@ -3109,7 +3152,7 @@
     "href": "https://gaqm.org/certifications/scrum_agile/cac",
     "mainCategory": "mgmt",
     "skillLevel": 20,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Certified Agile Coach\\n    $170"
   },
   {
@@ -3154,11 +3197,13 @@
     "href": "https://www.mile2.com/cslo_outline/",
     "mainCategory": "mgmt",
     "skillLevel": 20,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "Mile2 Certified Security Leadership Officer\\n    $550 exam"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "mgmt_right"
+    ],
     "content": "DCBCA",
     "href": "https://drii.org/certification/cbca",
     "mainCategory": "test",
@@ -3239,12 +3284,14 @@
     "tooltiptext": "Mitre Att&ck Defender Cyber Threat intelligence\\n                    $299 annual subscription"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "incident_handling"
+    ],
     "content": "CEH",
     "href": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
     "mainCategory": "redops",
     "skillLevel": 20,
-    "subCategory": "incident_handling",
+    "subCategory": "pen_testing",
     "tooltiptext": "EC Council Certified Ethical Hacker\\n    $1,199 exam"
   },
   {
@@ -3379,7 +3426,7 @@
     "href": "https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp",
     "mainCategory": "engineer",
     "skillLevel": 21,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "GIAC Global Industrial Security Professional\\n    $979 exam\\n    SANS course encouraged"
   },
   {
@@ -3419,7 +3466,9 @@
     "tooltiptext": "EC Council Certified SOC Analyst\\n    $550 exam"
   },
   {
-    "adjacentCategory": [],
+    "adjacentCategory": [
+      "pen_testing"
+    ],
     "content": "GFACT",
     "href": "https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/",
     "mainCategory": "blueops",
@@ -3559,7 +3608,7 @@
     "href": "https://docs.microsoft.com/en-us/learn/certifications/azure-iot-developer-specialty?wt.mc_id=learningredirect_certs-web-wwl",
     "mainCategory": "engineer",
     "skillLevel": 22,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "Azure IoT Developer Specialty\\n    $165 exam"
   },
   {
@@ -3721,7 +3770,7 @@
     "href": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "mainCategory": "engineer",
     "skillLevel": 23,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "ISA Certified Fundamentals Specialist\\n    $2,700 course + exam\\n    Course required"
   },
   {
@@ -3730,7 +3779,7 @@
     "href": "https://eitca.org/eitca-is-information-security-academy/",
     "mainCategory": "engineer",
     "skillLevel": 23,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "EITCA/IS Information Security Certificate\\n    $120 exam"
   },
   {
@@ -3856,7 +3905,7 @@
     "href": "https://www.exidacace.com/Apply/CACS",
     "mainCategory": "engineer",
     "skillLevel": 24,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "Excida IEC 62443 Certified Automation Cybersecurity Specialist\\n    $700 exam"
   },
   {
@@ -3865,7 +3914,7 @@
     "href": "https://limessecurity.com/en/academy/ics-211/",
     "mainCategory": "engineer",
     "skillLevel": 24,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "TUV Certified OT Security Technical Expert\\n    $3,070 course"
   },
   {
@@ -3885,7 +3934,7 @@
     "href": "https://www.opengroup.org/certifications/togaf",
     "mainCategory": "mgmt",
     "skillLevel": 24,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "OpenGroup TOGAF Certified\\n    $360 exam"
   },
   {
@@ -3894,7 +3943,7 @@
     "href": "https://gaqm.org/certifications/scrum_agile/csp-410",
     "mainCategory": "mgmt",
     "skillLevel": 24,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "GAQM Certified SAFe Practitioner\\n    $170 exam"
   },
   {
@@ -3903,7 +3952,7 @@
     "href": "https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/",
     "mainCategory": "mgmt",
     "skillLevel": 24,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "IIBA Certification in Cybersecurity Analysis\\n    $475 exam"
   },
   {
@@ -3948,7 +3997,7 @@
     "href": "https://www.mosse-institute.com/certifications/mcl-cybersecurity-leadership.html",
     "mainCategory": "mgmt",
     "skillLevel": 24,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "Mosse Institute Cybersecurity Leadership\\n                    $450 exam"
   },
   {
@@ -3957,7 +4006,7 @@
     "href": "https://certiport.filecamp.com/s/JTIy1sX0ci0ZI3ss/fi",
     "mainCategory": "mgmt",
     "skillLevel": 24,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "Certiport IT Specialist - Cybersecurity\\n                    $127 exam"
   },
   {
@@ -4101,7 +4150,7 @@
     "href": "https://certnexus.com/certification/ciotsp/",
     "mainCategory": "engineer",
     "skillLevel": 25,
-    "subCategory": null,
+    "subCategory": "ics_iot",
     "tooltiptext": "CertNexus Certified Internet of Things Security Practitioner\\n    $250 exam"
   },
   {
@@ -4110,7 +4159,7 @@
     "href": "https://limessecurity.com/en/academy/ics-201/",
     "mainCategory": "engineer",
     "skillLevel": 25,
-    "subCategory": "ics_iot",
+    "subCategory": null,
     "tooltiptext": "TUV Certified OT Security Practitioner\\n    $2725 course"
   },
   {
@@ -4128,7 +4177,7 @@
     "href": "https://www.axelos.com/certifications/propath/mor-risk-management/mor-foundation",
     "mainCategory": "mgmt",
     "skillLevel": 25,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Axelos M_o_R Framework Foundation\\n    $495 exam"
   },
   {
@@ -4137,7 +4186,7 @@
     "href": "https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2",
     "mainCategory": "mgmt",
     "skillLevel": 25,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Fair Institute Analysis Fundamentals\\n    $1499 exam\\n    Course required"
   },
   {
@@ -4146,7 +4195,7 @@
     "href": "https://www.scrum.org/assessments/professional-scrum-master-i-certification",
     "mainCategory": "mgmt",
     "skillLevel": 25,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "Scrum.org Professional Scrum Master I\\n    $150 exam"
   },
   {
@@ -4191,7 +4240,7 @@
     "href": "https://www.seco-institute.org/certifications/information-security-certification-track/",
     "mainCategory": "mgmt",
     "skillLevel": 25,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "SECO Information Security Foundation\\n                    $460 exam"
   },
   {
@@ -4202,7 +4251,7 @@
     "href": "https://www.giac.org/certification/information-security-fundamentals-gisf",
     "mainCategory": "mgmt",
     "skillLevel": 25,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "GIAC Information Security Fundamentals\\n    $979 exam\\n    SANS course recommended"
   },
   {
@@ -4285,7 +4334,7 @@
     "href": "https://www.axelos.com/certifications/itil-certifications/itil-foundation",
     "mainCategory": "mgmt",
     "skillLevel": 26,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "ITIL Foundation\\n    $383 exam"
   },
   {
@@ -4294,7 +4343,7 @@
     "href": "https://www.comptia.org/certifications/project",
     "mainCategory": "mgmt",
     "skillLevel": 26,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "CompTIA Project+\\n    $369 exam"
   },
   {
@@ -4303,7 +4352,7 @@
     "href": "https://www.ciisec.org/ICSF_Exam",
     "mainCategory": "mgmt",
     "skillLevel": 26,
-    "subCategory": null,
+    "subCategory": "mgmt_left",
     "tooltiptext": "CIISec Information and Cybersecurity Fundamentals\\n    $450 exam"
   },
   {
@@ -4339,7 +4388,7 @@
     "href": "https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course",
     "mainCategory": "mgmt",
     "skillLevel": 26,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "IBITGQ Certified Cyber Security Foundation\\n    $725 course exam\\n    Branded course required"
   },
   {
@@ -4348,7 +4397,7 @@
     "href": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course",
     "mainCategory": "mgmt",
     "skillLevel": 26,
-    "subCategory": null,
+    "subCategory": "mgmt_right",
     "tooltiptext": "IBITGQ Certified ISO 27001 Information Security Management Specialist Foundation\\n    $853 course exam\\n    Brandeed course required"
   },
   {

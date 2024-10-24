@@ -8,6 +8,8 @@ export type Category =
   | "engineer"
   | "asset"
   | "mgmt"
+  | "mgmt_left"
+  | "mgmt_right"
   | "grc"
   | "test"
   | "software"
@@ -19,9 +21,19 @@ export type Category =
   | "exploit";
 
 export type CategoryWithSubCategoryKey = Extract<Category, "engineer" | "mgmt" | "blueops" | "redops">;
+
 export type SubCategoryKey = Extract<
   Category,
-  "cloud_sec_ops" | "nix" | "ics_iot" | "grc" | "forensics" | "incident_handling" | "pen_testing" | "exploit"
+  | "cloud_sec_ops"
+  | "nix"
+  | "ics_iot"
+  | "mgmt_left"
+  | "grc"
+  | "mgmt_right"
+  | "forensics"
+  | "incident_handling"
+  | "pen_testing"
+  | "exploit"
 >;
 
 export type SubCategoryMap = {
