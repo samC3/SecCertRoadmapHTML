@@ -1,10 +1,10 @@
 import load from "./certificates_loader.js";
+import { skillLevelDisplayNames } from "./constants.js";
 import { updateCertificatesOnControlChange } from "./controls.js";
 import { createCategoriesGrid } from "./create_categories_grid.js";
 import createCertificatesGrid from "./create_certificate_grid.js";
 import { countColumns } from "./helpers.js";
 import { renderCategoriesGrid, renderCertificates, renderControlCheckbox } from "./render.js";
-import { CategoriesGrid } from "./types";
 
 const main = (): void => {
   const certificates = load();
@@ -16,12 +16,19 @@ const main = (): void => {
   renderCertificates(certificateGrid, numberOfColumns);
 
   Object.entries(categoriesGrid).forEach(([name, cat]) => {
-    if (cat.renderControl)
-      renderControlCheckbox("category-controls", name, cat.displayName, "category-checkbox", !cat.hidden);
+    const group = cat.isSubCategory ? "sub-category-controls" : "category-controls";
+    renderControlCheckbox(group, name, cat.displayName, "category-checkbox", !cat.hidden, !cat.renderControl);
   });
 
   ["beginner", "intermediate", "expert"].forEach((skillLevel) => {
-    renderControlCheckbox("skill-level-controls", skillLevel, skillLevel, "skill-level-checkbox", true);
+    renderControlCheckbox(
+      "skill-level-controls",
+      skillLevel,
+      skillLevelDisplayNames[skillLevel],
+      "skill-level-checkbox",
+      true,
+      false
+    );
   });
 
   document

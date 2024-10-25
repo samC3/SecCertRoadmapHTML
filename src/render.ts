@@ -119,11 +119,13 @@ export const renderControlCheckbox = (
   checkboxName: string,
   labelName: string,
   classes: string,
-  checked: boolean
+  checked: boolean,
+  hideControl: boolean
 ) => {
   const control = document.getElementById("controls")!;
 
   const controlGroupElement = getOrCreateControlGroup(control, controlGroup);
+  const container = document.createElement("div");
   const label = document.createElement("label");
   const checkbox = document.createElement("input");
 
@@ -136,10 +138,12 @@ export const renderControlCheckbox = (
   checkbox.name = checkboxName;
   checkbox.className = classes;
   checkbox.checked = checked;
-  checkbox.hidden = true;
 
-  controlGroupElement.appendChild(checkbox);
-  controlGroupElement.appendChild(label);
+  container.hidden = hideControl;
+
+  controlGroupElement.appendChild(container);
+  container.appendChild(checkbox);
+  container.appendChild(label);
 };
 
 const getOrCreateControlGroup = (control: HTMLElement, controlGroup: string): Element => {
@@ -149,7 +153,7 @@ const getOrCreateControlGroup = (control: HTMLElement, controlGroup: string): El
 
   const controlGroupElement = document.createElement("div");
 
-  controlGroupElement.className = controlGroup;
+  controlGroupElement.className = `control-group ${controlGroup}`;
   control.appendChild(controlGroupElement);
 
   return controlGroupElement;

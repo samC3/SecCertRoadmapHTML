@@ -1,10 +1,10 @@
-import { orderedCategories } from "./constants.js";
+import { categoryDisplayNames, noControlCategories, orderedCategories, subCategories } from "./constants.js";
 import { range } from "./helpers.js";
 import { CategoriesGrid, Certificate } from "./types";
 
 export const createCategoriesGrid = (certificates: Certificate[]): CategoriesGrid => {
   let categoriesGrid: CategoriesGrid = {
-    skilllevel: { start: 1, span: 1, hidden: false, displayName: "", renderControl: false },
+    skilllevel: { start: 1, span: 1, hidden: false, displayName: "", renderControl: false, isSubCategory: false },
   };
 
   const maxSkillLevel = Math.max(...certificates.map((cert) => cert.skillLevel));
@@ -16,8 +16,9 @@ export const createCategoriesGrid = (certificates: Certificate[]): CategoriesGri
       start: start,
       span: span,
       hidden: false,
-      renderControl: true,
-      displayName: category,
+      renderControl: !noControlCategories.includes(category),
+      displayName: categoryDisplayNames[category] || "",
+      isSubCategory: subCategories.includes(category),
     };
 
     return categoriesGrid;

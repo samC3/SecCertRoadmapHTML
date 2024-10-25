@@ -56,6 +56,7 @@ export interface CategoryColumn {
   hidden: boolean;
   renderControl: boolean;
   displayName: string;
+  isSubCategory: boolean;
 }
 
 export interface Certificate {

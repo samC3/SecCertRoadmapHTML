@@ -79,3 +79,34 @@ export const subCategoryParentCategory: SubCategoryParentCategoryMap = {
   [PEN_TESTING]: REDOPS,
   [EXPLOIT]: REDOPS,
 };
+
+export const noControlCategories = [MGMT_LEFT, MGMT_RIGHT];
+
+export const categoryDisplayNames: { [key in Category]: string | null } = {
+  skilllevel: null,
+  network: "Network",
+  iam: "IAM",
+  cloud_sec_ops: "Cloud Security & Operations",
+  nix: "NIX",
+  ics_iot: "ICS & IoT",
+  engineer: "Engineer",
+  asset: "Asset",
+  mgmt: "Management",
+  mgmt_left: null,
+  mgmt_right: null,
+  grc: "GRC",
+  test: "Testing",
+  software: "Software",
+  blueops: "Blue Team Ops",
+  redops: "Red Team Ops",
+  forensics: "Forensics",
+  incident_handling: "Incident Handling",
+  pen_testing: "Pen Testing",
+  exploit: "Exploit",
+};
+
+export const skillLevelDisplayNames: { [key: string]: string } = {
+  beginner: "Beginner",
+  intermediate: "Intermediate",
+  expert: "Expert",
+};

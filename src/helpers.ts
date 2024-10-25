@@ -6,11 +6,11 @@ export const countColumns = (categories: CategoriesGrid): number => {
 
 export const skillLevelName = (skillLevel: number): SkillLevelName => {
   if (skillLevel < 10) {
-    return "beginner";
+    return "expert";
   } else if (skillLevel < 19) {
     return "intermediate";
   } else {
-    return "expert";
+    return "beginner";
   }
 };
 
