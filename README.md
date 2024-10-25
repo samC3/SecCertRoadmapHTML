@@ -9,14 +9,17 @@ To enable interactivity the table will be rendered using Javascript, which means
 - [x] Render the certificates from a JSON file
 - [x] Show/Hide certificates based on category and skill level
 - [x] Show certificate information in modal window
+- [x] Include sub categories and breakdown ops section into red and blue
 
-![GIF of certificates roadmap showing POC progress](interactive_sec_cert_roadmap_poc_update_1.gif)
+![GIF of certificates roadmap showing POC progress](interactive_sec_cert_roadmap_poc_update_2.gif)
 
 ### Next steps
 
-- [ ] Review certificate grid builder, bugfix adjacent category on filter, add tests
-- [ ] Include sub categories and breakdown ops section into red and blue
+- [ ] Review certificate grid builder 
+- [ ] Add tests
 - [ ] Explore rendering alternatives
+- [ ] Alternative display for mobile devices
+- [ ] Filter by certificate price
 
 # SecCertRoadmapHTML
 Security Certification Roadmap HTML5/CSS3 version
