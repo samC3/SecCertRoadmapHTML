@@ -21,6 +21,13 @@ To enable interactivity the table will be rendered using Javascript, which means
 - [ ] Alternative display for mobile devices
 - [ ] Filter by certificate price
 
+### How to run
+
+1. Install NodeJS on your system so you can install the dependencies
+2. Run `npm i` to install `typescript` and `http-server`.
+3. Run `npm run watch` to compile the project and start a server for the files.
+4. Open `http://127.0.0.1:8080/interactive-roadmap.html` 
+
 # SecCertRoadmapHTML
 Security Certification Roadmap HTML5/CSS3 version
 
