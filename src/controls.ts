@@ -1,8 +1,9 @@
-import { subCategories, subCategoryParentCategory, mainCategories } from "./constants.js";
+import { subCategories, subCategoryParentCategory, mainCategories, listOrderedCategories } from "./constants.js";
 import { createCategoriesGrid, updateCategoriesGrid } from "./create_categories_grid.js";
 import createCertificatesGrid from "./create_certificate_grid.js";
 import { countColumns, skillLevelName } from "./helpers.js";
-import { renderCategoriesGrid, renderCertificates } from "./render.js";
+import { clearGrid, renderCategoriesGrid, renderCertificates } from "./renderers/render_grid.js";
+import { clearList, renderCategoryCerticatesList } from "./renderers/render_list.js";
 import { Category, Certificate, SkillLevelName, SubCategoryKey } from "./types";
 
 export const updateCertificatesOnControlChange = (certificates: Certificate[]) => {
@@ -60,6 +61,16 @@ export const updateCertificatesOnControlChange = (certificates: Certificate[]) =
     .filter((level) => skillLevelCheckbox[level])
     .map((level) => level as SkillLevelName);
 
-  renderCategoriesGrid(categoriesGrid, enabledSkillLevels);
-  renderCertificates(updatedGrid, numberOfColumns);
+  const filteredCategories = listOrderedCategories.filter((cat) => !categoriesGrid[cat].hidden);
+
+  const display = document.querySelector("input[name=display]:checked")!.value;
+
+  if (display === "grid") {
+    clearList();
+    renderCategoriesGrid(categoriesGrid, enabledSkillLevels);
+    renderCertificates(updatedGrid, numberOfColumns);
+  } else {
+    clearGrid();
+    renderCategoryCerticatesList(filteredCerts, filteredCategories as Category[]);
+  }
 };

@@ -43,6 +43,28 @@ export const orderedCategories: Category[] = [
   EXPLOIT,
 ];
 
+export const listOrderedCategories: Category[] = [
+  NETWORK,
+  IAM,
+  ENGINEER,
+  CLOUD_SEC_OPS,
+  NIX,
+  ICS_IOT,
+  ASSET,
+  MGMT,
+  MGMT_LEFT,
+  MGMT_RIGHT,
+  GRC,
+  TEST,
+  SOFTWARE,
+  BLUEOPS,
+  FORENSICS,
+  INCIDENT_HANDLING,
+  REDOPS,
+  PEN_TESTING,
+  EXPLOIT,
+];
+
 export const mainCategories: Category[] = [NETWORK, IAM, ENGINEER, ASSET, MGMT, TEST, SOFTWARE, BLUEOPS, REDOPS];
 
 export const mainCategoryWithSubCategory: Category[] = [ENGINEER, MGMT, BLUEOPS, REDOPS];
