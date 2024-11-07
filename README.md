@@ -1,25 +1,38 @@
 # Interactive Javascript Proof of Concept
 
-This fork is a proof of concept for converting Paul Jerimy's roadmap into an interactive version. The first version will use vanilla TypeScript without libraries, although this may change.
+This fork is a proof of concept for converting Paul Jerimy's roadmap into an interactive version. The two key features added are: 
 
-To enable interactivity the table will be rendered using Javascript, which means the exact positioning of each cert may be different to the original. Although I will endeavour to keep it as close as possible.
+1. Filtering certificates displayed by category and skill level, and
+2. Rendering the certificates in a list for mobile screen sizes.
 
-## POC progress
+The proof of concept is focusing on demonstrating the new features, leaving the design until a later phase.
+
+The first version is rendering the page without any libraries or frameworks. The state of the page is contained in the form controls which means a more complicated solution for managing state is not yet required. As the certificate grid is being rendered with JavaScript the exact positioning of each certificate in their respective category may be different to the original page.
+
+## Proof of concept progress
 
 - [x] Render the certificates from a JSON file
 - [x] Show/Hide certificates based on category and skill level
 - [x] Show certificate information in modal window
 - [x] Include sub categories and breakdown ops section into red and blue
+- [x] Alternative display for mobile devices
+
+### Filtering options
 
 ![GIF of certificates roadmap showing POC progress](interactive_sec_cert_roadmap_poc_update_2.gif)
 
+### Mobile list view
+
+![GIF of certificates roadmap showing POC progress](interactive_sec_cert_roadmap_poc_update_3_mobile_list_view.gif)
+
 ### Next steps
 
+- [ ] Breakdown data into description and price
+- [ ] Filter by certificate price
+- [ ] Add more information to list view (e.g. display certificate skill level)
 - [ ] Review certificate grid builder 
 - [ ] Add tests
 - [ ] Explore rendering alternatives
-- [ ] Alternative display for mobile devices
-- [ ] Filter by certificate price
 
 ### How to run
 
